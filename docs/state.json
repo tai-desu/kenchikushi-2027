@@ -73,8 +73,8 @@
    "review": null,
    "exam": null,
    "budget": 10.4,
-   "status": "in_progress",
-   "tasks_done": 1,
+   "status": "done",
+   "tasks_done": 2,
    "tasks_total": 2,
    "tracks": [
     {
@@ -98,7 +98,7 @@
      "label": "累積",
      "unit": null,
      "note": "既習範囲から20問",
-     "done": false
+     "done": true
     }
    ],
    "task_list": [
@@ -5375,12 +5375,12 @@
   }
  ],
  "summary": {
-  "done": 0,
+  "done": 1,
   "slipped": 0,
-  "remaining": 51,
-  "pct": 0,
+  "remaining": 50,
+  "pct": 2,
   "hours_total": 757,
-  "hours_left": 757,
+  "hours_left": 746,
   "weeks_left": 50,
   "next_gate": {
    "week": 21,
