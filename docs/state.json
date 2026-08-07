@@ -73,8 +73,8 @@
    "review": null,
    "exam": null,
    "budget": 10.4,
-   "status": "planned",
-   "tasks_done": 0,
+   "status": "in_progress",
+   "tasks_done": 1,
    "tasks_total": 2,
    "tracks": [
     {
@@ -91,7 +91,7 @@
       ]
      },
      "note": null,
-     "done": false
+     "done": true
     },
     {
      "key": "cum",
