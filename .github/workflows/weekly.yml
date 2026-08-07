@@ -1,0 +1,39 @@
+name: weekly
+
+on:
+  schedule:
+    - cron: '0 15 * * 0'      # 日曜 15:00 UTC = 月曜 0:00 JST
+  workflow_dispatch:
+    inputs:
+      week:
+        description: '週番号（省略で現在週）'
+        required: false
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - run: python3 scripts/build.py
+
+      - name: 週次 Issue を立てる
+        env:
+          GH_TOKEN: ${{ github.token }}
+          WEEK: ${{ inputs.week }}
+        run: |
+          python3 scripts/gen_issue.py $WEEK > /tmp/body.md
+          TITLE=$(python3 scripts/issue_title.py $WEEK)
+          EXIST=$(gh issue list --search "$TITLE in:title" --state all --json title --jq 'length')
+          if [ "$EXIST" != "0" ]; then
+            echo "既にあります: $TITLE"
+          else
+            gh issue create --title "$TITLE" --body-file /tmp/body.md
+          fi

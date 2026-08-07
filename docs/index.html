@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>一級建築士 学科 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E7EAE5; --sheet:#FBFCFA; --ink:#1E221D; --ink-2:#565C55; --ink-3:#8C928A;
+  --rule:#CFD4CC; --rule-soft:#E3E7E0; --wash:#F1F3EF; --sumi:#22261F;
+  --sans:"Noto Sans JP",system-ui,sans-serif;
+  --mono:var(--sans);
+  --serif:var(--sans);
+  --col:26px; --lane:52px; --gut:86px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);font-feature-settings:"palt" 1;font-size:14px;line-height:1.6;padding:22px 18px 56px}
+.n{font-feature-settings:"tnum" 1,"lnum" 1;letter-spacing:.01em}
+.sheet{max-width:1180px;margin:0 auto;background:var(--sheet);border:1px solid var(--ink);
+  box-shadow:0 1px 0 rgba(30,34,29,.06),0 12px 30px -22px rgba(30,34,29,.5)}
+.sheet > section,.sheet > details{border-top:1px solid var(--rule)}
+.sheet > *:first-child{border-top:0}
+
+.tb{display:grid;grid-template-columns:minmax(240px,1.4fr) repeat(4,minmax(96px,1fr))}
+.tb > *{border-left:1px solid var(--rule);padding:14px 16px}
+.tb > *:first-child{border-left:0;padding:18px 20px}
+.tb .eyebrow{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;color:var(--ink-3);text-transform:uppercase}
+.tb h1{font-weight:700;font-size:24px;line-height:1.3;letter-spacing:.01em;margin-top:5px}
+.tb .sub{font-size:11.5px;color:var(--ink-2);margin-top:3px}
+.tb dt{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--ink-3);text-transform:uppercase}
+.tb dd{font-size:15px;font-weight:500;margin-top:5px;line-height:1.3}
+.tb dd small{display:block;font-size:10.5px;color:var(--ink-3);font-weight:400}
+
+.hero{display:grid;grid-template-columns:1.5fr 1fr}
+.hero > div{padding:20px 22px}
+.hero > div + div{border-left:1px solid var(--rule);background:var(--wash)}
+.kicker{display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap}
+.kicker .lab{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;background:var(--ink);color:var(--sheet);padding:2px 7px}
+.kicker .lab.alt{background:transparent;color:var(--ink-2);border:1px solid var(--rule)}
+.kicker .wk{font-size:15px;font-weight:600;font-feature-settings:"tnum" 1}
+.kicker .dt{font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+.now{display:flex;gap:14px;align-items:flex-start}
+.mark{flex:0 0 34px;height:34px;display:grid;place-items:center;color:#fff;font-size:16px;font-weight:700;line-height:1}
+.now h2{font-size:21px;font-weight:700;line-height:1.35;letter-spacing:.01em}
+.now h2 em{font-style:normal;color:var(--ink-3);font-size:15px;margin-left:8px;white-space:nowrap}
+.now .full{font-size:12px;color:var(--ink-2);margin-top:3px}
+.pips{display:flex;gap:4px;margin:16px 0 8px}
+.pips i{flex:1;height:7px;background:var(--rule-soft)}
+.pips i.on{background:var(--ink)}
+.meta{display:flex;gap:20px;font-size:11.5px;color:var(--ink-2);align-items:baseline;flex-wrap:wrap}
+.meta b{font-size:17px;font-weight:600;color:var(--ink);font-feature-settings:"tnum" 1}
+.steps{margin-top:20px;border-top:1px solid var(--rule-soft);padding-top:14px}
+.steps h4{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:8px}
+.steps ol{list-style:none;counter-reset:s}
+.steps li{counter-increment:s;font-size:12.5px;color:var(--ink-2);padding:3px 0 3px 26px;position:relative}
+.steps li::before{content:counter(s);position:absolute;left:0;top:3px;width:17px;height:17px;
+  display:grid;place-items:center;font-size:9.5px;color:var(--ink-3);border:1px solid var(--rule);font-feature-settings:"tnum" 1}
+.cta{margin-top:18px;display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--sheet);
+  border:0;cursor:pointer;font-family:var(--sans);font-size:13px;font-weight:500;padding:11px 18px;text-decoration:none}
+.cta:hover{background:#000}
+.cta .p{font-family:var(--mono);font-size:10.5px;opacity:.6}
+#hLog{display:none}
+.linkish{background:none;border:0;padding:0;margin-left:16px;cursor:pointer;font-size:12px;color:var(--ink-2);
+  text-decoration:underline;text-underline-offset:3px;font-family:var(--sans)}
+
+.side h3{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);
+  padding-bottom:9px;border-bottom:1px solid var(--rule-soft);margin-bottom:4px}
+.srow{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:flex-start}
+.srow:last-child{border-bottom:0}
+.srow .t{flex:0 0 46px;font-family:var(--mono);font-size:9px;letter-spacing:.1em;color:var(--ink-3);padding-top:4px}
+.srow .b{flex:1;min-width:0}
+.srow .b .h{font-size:13.5px;font-weight:500;display:flex;align-items:center;gap:7px}
+.srow .b .h i{width:14px;height:14px;display:grid;place-items:center;color:#fff;font-size:9.5px;font-style:normal;flex:0 0 14px}
+.srow .b .d{font-size:11px;color:var(--ink-2);margin-top:1px}
+.trk{display:flex;gap:11px;padding:10px 0;border-bottom:1px solid var(--rule-soft);align-items:flex-start;
+  width:100%;background:transparent;border-left:0;border-right:0;border-top:0;cursor:pointer;text-align:left;font-family:var(--sans)}
+.trk:last-of-type{border-bottom:0}
+.trk:hover .box{border-color:var(--ink)}
+.trk:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.trk .box{flex:0 0 17px;height:17px;border:1.5px solid var(--ink-3);background:var(--sheet);margin-top:2px;position:relative}
+.trk.on .box{background:var(--ink);border-color:var(--ink)}
+.trk.on .box::after{content:"";position:absolute;left:5px;top:1.5px;width:4.5px;height:9px;
+  border:solid var(--sheet);border-width:0 2px 2px 0;transform:rotate(42deg)}
+.trk .b{flex:1;min-width:0}
+.trk .b .tg{font-size:9px;letter-spacing:.14em;color:var(--ink-3)}
+.trk .b .h{font-size:13.5px;font-weight:500;display:flex;align-items:center;gap:7px;margin-top:1px}
+.trk .b .h i{width:14px;height:14px;display:grid;place-items:center;color:#fff;font-size:9.5px;font-style:normal;flex:0 0 14px}
+.trk .b .d{font-size:11px;color:var(--ink-2);margin-top:1px}
+.trk.on .b .h,.trk.on .b .d{color:var(--ink-3)}
+.trk.on .b .h{text-decoration:line-through;text-decoration-color:var(--rule)}
+.savebar{display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap}
+.savebar .msg{font-size:10.5px;color:var(--ink-3)}
+.linkbox{margin-top:14px;border:1px solid var(--rule);background:var(--sheet);padding:11px 13px}
+.linkbox h4{font-family:var(--mono);font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+.linkbox p{font-size:11.5px;line-height:1.65;color:var(--ink-2)}
+.linkbox p + p{margin-top:4px}
+
+.ribbon{padding:16px 22px}
+.rb-head{display:flex;align-items:baseline;gap:12px;margin-bottom:10px;flex-wrap:wrap}
+.rb-head h3{font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3)}
+.rb-head .stat{font-family:var(--mono);font-size:11px;color:var(--ink-2);margin-left:auto}
+.rb-head .stat b{color:var(--ink);font-weight:600}
+.rbscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:2px}
+.rb{display:flex;gap:2px;min-width:520px}
+.rb button{flex:1 1 0;min-width:8px;height:30px;border:0;padding:0;cursor:pointer;position:relative;background:var(--c);opacity:.2}
+.rb button.done{opacity:1}
+.rb button.part{opacity:.62}
+.rb button.now{opacity:1;box-shadow:inset 0 0 0 2px var(--sumi)}
+.rb button.slip{opacity:1;background:repeating-linear-gradient(45deg,var(--c) 0 3px,transparent 3px 6px)}
+.rb button.sel::after{content:"";position:absolute;left:0;right:0;bottom:-6px;height:2px;background:var(--ink)}
+.rb button:focus-visible{outline:2px solid var(--ink);outline-offset:2px;z-index:2}
+.rb-axis{display:flex;justify-content:space-between;font-family:var(--mono);font-size:9px;color:var(--ink-3);margin-top:8px;min-width:520px}
+
+details > summary{list-style:none;cursor:pointer;padding:14px 22px;display:flex;align-items:center;gap:10px;
+  font-family:var(--mono);font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2)}
+details > summary::-webkit-details-marker{display:none}
+details > summary:hover{background:var(--wash)}
+summary .tri{font-size:11px}
+details[open] > summary .tri{transform:rotate(90deg)}
+summary .hint{margin-left:auto;letter-spacing:.04em;text-transform:none;font-family:var(--sans);font-size:11px;color:var(--ink-3)}
+.chartbody{border-top:1px solid var(--rule-soft)}
+.scroller{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.canvas{position:relative;padding:6px 22px 10px}
+.ruler{position:relative;height:30px;border-bottom:1px solid var(--rule);margin-left:var(--gut)}
+.mo{position:absolute;top:0;height:30px;border-left:1px solid var(--rule);font-family:var(--mono);font-size:9.5px;
+  letter-spacing:.1em;color:var(--ink-3);padding:7px 0 0 6px}
+.mo.yr::after{content:attr(data-y);display:block;font-size:8px;color:#A9AFA6;margin-top:-3px}
+.lanes{position:relative}
+.lane{position:absolute;left:0;right:0;height:var(--lane)}
+.lnlab{position:absolute;left:0;top:0;width:var(--gut);height:var(--lane);padding:8px 10px 0 0;
+  border-right:1px solid var(--rule);display:flex;gap:7px;align-items:flex-start}
+.lnlab i{width:18px;height:18px;display:grid;place-items:center;color:#fff;font-style:normal;
+  font-size:11px;font-weight:700;flex:0 0 18px}
+.lnlab b{font-size:13px;font-weight:700;display:block;letter-spacing:.02em}
+.lnlab s{font-family:var(--mono);font-size:8.5px;color:var(--ink-3);text-decoration:none;display:block}
+.track{position:absolute;left:var(--gut);top:0;height:var(--lane)}
+.grid{position:absolute;left:var(--gut);top:0;bottom:0;pointer-events:none}
+.grid i{position:absolute;top:0;bottom:0;width:1px;background:var(--rule-soft)}
+.bar{position:absolute;top:6px;height:22px;display:flex;mix-blend-mode:multiply}
+.seg{flex:1 1 0;position:relative}
+.seg.s1{opacity:1}.seg.s2{opacity:.52}.seg.s3{opacity:.28}
+.seg.future{opacity:.14}.seg.future.s2{opacity:.10}.seg.future.s3{opacity:.07}
+.seg.fin::after{content:"";position:absolute;left:0;right:1px;bottom:-4px;height:2px;background:var(--sumi)}
+.bar.ghost{background:transparent;border:1px dashed var(--ink-3)}
+.bar.ghost .seg{background:transparent!important;opacity:1}
+.bar.out{background:transparent;border:1px solid currentColor}
+.bar.out .seg{background:transparent!important}
+.blabel{position:absolute;top:32px;font-size:11px;color:var(--ink-2);white-space:nowrap}
+.blabel.future{color:var(--ink-3)}
+.blabel .u{font-family:var(--mono)}
+.blabel .nm{color:var(--ink-3);margin-left:3px;font-size:10.5px}
+.band{position:absolute;top:0;bottom:0;pointer-events:none}
+.band.mid{background:rgba(34,38,31,.07);border-left:1px solid var(--sumi);border-right:1px solid var(--sumi)}
+.band.fin{background:repeating-linear-gradient(45deg,rgba(34,38,31,.05) 0 4px,transparent 4px 8px);border-left:1px dashed var(--sumi)}
+.btag{position:absolute;top:0;left:1px;font-family:var(--mono);font-size:8.5px;background:var(--sumi);color:#F2F4F0;padding:1px 5px;white-space:nowrap}
+.front{position:absolute;top:0;bottom:0;width:0;border-left:1.5px solid var(--sumi)}
+.front::before{content:attr(data-l);position:absolute;top:-25px;left:3px;font-size:9.5px;background:var(--sumi);color:#F2F4F0;padding:1px 6px;white-space:nowrap}
+.cursor{position:absolute;top:0;bottom:0;width:var(--col);background:rgba(30,36,28,.26);mix-blend-mode:multiply;pointer-events:none}
+.hits{position:absolute;left:var(--gut);top:0;bottom:0;display:flex}
+.hits button{width:var(--col);border:0;background:transparent;padding:0;cursor:pointer}
+.key{display:flex;flex-wrap:wrap;gap:12px 24px;padding:12px 22px;border-top:1px solid var(--rule-soft);font-size:11px;color:var(--ink-2);align-items:center}
+.key div{display:flex;align-items:center;gap:7px}
+.key .sw{display:flex;width:52px;height:11px}
+.key .sw i{flex:1;background:#2E6BA8}
+.key .sw i:nth-child(2){opacity:.52}.key .sw i:nth-child(3){opacity:.28}
+.key .sw.f i{opacity:.14}.key .sw.f i:nth-child(2){opacity:.10}.key .sw.f i:nth-child(3){opacity:.07}
+.key .ln{width:22px;height:2px;background:var(--sumi)}
+
+/* 全単元一覧 */
+.idxbody{border-top:1px solid var(--rule-soft)}
+.idxtabs{display:flex;gap:0;border-bottom:1px solid var(--rule-soft)}
+.idxtabs button{flex:0 0 auto;background:transparent;border:0;border-right:1px solid var(--rule-soft);
+  padding:10px 18px;font-family:var(--sans);font-size:11.5px;color:var(--ink-3);cursor:pointer}
+.idxtabs button.on{color:var(--ink);font-weight:600;box-shadow:inset 0 -2px 0 var(--ink)}
+.idxtabs button:hover{background:var(--wash)}
+.idxtabs .note{margin-left:auto;align-self:center;padding-right:20px;font-size:11px;color:var(--ink-3)}
+.grp{border-bottom:1px solid var(--rule)}
+.grp:last-child{border-bottom:0}
+.grph{display:flex;align-items:center;gap:9px;padding:11px 22px;background:var(--wash)}
+.grph i{width:19px;height:19px;display:grid;place-items:center;color:#fff;font-style:normal;font-size:11px;font-weight:700;flex:0 0 19px}
+.grph b{font-size:14px;font-weight:700;letter-spacing:.02em}
+.grph s{text-decoration:none;font-size:10.5px;color:var(--ink-3)}
+.grph .rng{margin-left:auto;font-size:10.5px;color:var(--ink-3);font-feature-settings:"tnum" 1}
+.grpl{padding:8px 22px 10px;background:var(--wash);border-top:1px dotted var(--rule)}
+.grpl p{font-size:11.5px;color:var(--ink-2);line-height:1.6}
+.urow{display:flex;gap:12px;align-items:baseline;width:100%;text-align:left;background:transparent;
+  border:0;border-top:1px solid var(--rule-soft);padding:9px 22px;cursor:pointer;font-family:var(--sans)}
+.urow:hover{background:var(--wash)}
+.urow:focus-visible{outline:2px solid var(--ink);outline-offset:-2px}
+.urow .r{flex:0 0 24px;font-size:10px;color:var(--ink-3);font-feature-settings:"tnum" 1}
+.urow .nmk{flex:0 0 15px;height:15px;display:grid;place-items:center;color:#fff;font-size:9.5px;font-weight:700;align-self:center}
+.urow .nm{flex:0 0 128px;font-size:13px;font-weight:500}
+.urow .nm em{font-style:normal;color:var(--ink-3);font-weight:400;font-size:11px;margin-left:4px}
+.urow .ch{flex:1 1 auto;font-size:11px;color:var(--ink-2);min-width:120px}
+.urow .wk{flex:0 0 auto;text-align:right;font-size:11.5px;font-feature-settings:"tnum" 1}
+.urow .wk b{font-weight:600}
+.urow .wk s{display:block;text-decoration:none;font-size:9.5px;color:var(--ink-3);margin-top:-2px}
+.urow.done{opacity:.5}
+.urow.now{background:#F5F2E6}
+.urow.now .wk b{box-shadow:inset 0 -6px 0 rgba(203,85,102,.22)}
+@media (max-width:860px){
+  .urow{flex-wrap:wrap;row-gap:2px}
+  .urow .nm{flex:1 1 auto}
+  .urow .ch{flex:1 1 100%;padding-left:51px}
+  .grph{padding:11px 14px}.urow{padding:9px 14px}.grpl{padding:8px 14px 10px}
+}
+.setbody{border-top:1px solid var(--rule-soft);padding:16px 22px;display:flex;gap:22px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+.setbody p{font-size:11.5px;color:var(--ink-2);max-width:520px}
+.mini{font-size:11px;padding:5px 11px;border:1px solid var(--ink);background:transparent;color:var(--ink);
+  cursor:pointer;font-family:var(--sans);text-decoration:none;display:inline-block}
+.mini:hover{background:var(--ink);color:var(--sheet)}
+.mini.g{border-color:var(--rule);color:var(--ink-2)}
+.setbtns{display:flex;gap:8px;flex-wrap:wrap}
+.conn{border-top:1px solid var(--rule-soft);padding:16px 22px}
+.conn h4{font-size:9.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-3);margin-bottom:10px}
+.conn .fields{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.conn input{font-family:var(--sans);font-size:12px;padding:7px 9px;border:1px solid var(--rule);
+  background:var(--sheet);color:var(--ink);min-width:190px}
+.conn input:focus{outline:2px solid var(--ink);outline-offset:-1px}
+.conn .st{font-size:11px;color:var(--ink-3);margin-top:9px;display:flex;align-items:center;gap:7px}
+.conn .dot{width:7px;height:7px;background:var(--rule);flex:0 0 7px}
+.conn .dot.ok{background:#3E8A57}
+.conn .dot.busy{background:#A87F27}
+.conn .dot.err{background:#CB5566}
+.conn .warn{font-size:11px;color:var(--ink-2);line-height:1.65;margin-top:10px;border-left:2px solid var(--rule);padding-left:10px}
+.foot{padding:11px 22px;display:flex;flex-wrap:wrap;gap:5px 22px;font-family:var(--mono);font-size:9.5px;color:var(--ink-3);background:var(--wash)}
+@media (max-width:860px){
+  body{padding:14px 12px 40px}
+  .tb{grid-template-columns:1fr 1fr}
+  .tb > *:first-child{grid-column:1/-1;border-bottom:1px solid var(--rule)}
+  .tb > *:nth-child(2),.tb > *:nth-child(4){border-left:0}
+  .tb > *:nth-child(4),.tb > *:nth-child(5){border-top:1px solid var(--rule)}
+  .hero{grid-template-columns:1fr}
+  .hero > div + div{border-left:0;border-top:1px solid var(--rule)}
+  .now h2{font-size:20px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="sheet" id="sheet"></div>
+<script src="state.js"></script>
+<script>
+/* 端末間の同期:
+   state.json を毎回キャッシュ無効で取り直す。取れなければ
+   同梱の state.js（file:// でも動く）にフォールバックする。 */
+(async function(){
+  let S = window.STATE;
+  try{
+    const res = await fetch("state.json?t=" + Date.now(), {cache:"no-store"});
+    if(res.ok) S = await res.json();
+  }catch(e){ /* file:// / オフライン */ }
+  boot(S);
+})();
+
+function boot(S){
+const MON=["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const COL=26,GUT=86,LANE=52;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fd=(iso,y)=>{const d=new Date(iso);return (y?d.getFullYear()+".":"")+String(d.getMonth()+1).padStart(2,"0")+"."+String(d.getDate()).padStart(2,"0")};
+const W=S.weeks, NW=W.length, CUR=S.current, SUB=S.subjects, ROT=S.rotation;
+let selected=CUR;
+
+/* ── 図面枠 + ヒーロー + リボン + チャート ───────────── */
+document.getElementById("sheet").innerHTML = `
+<section class="tb">
+  <div>
+    <div class="eyebrow">Gakka / study plan</div>
+    <h1>${esc(S.meta.title)}</h1>
+    <div class="sub">${ROT.join(" → ")} を 8 周する ${NW} 週</div>
+  </div>
+  <dl><dt>期間</dt><dd class="n">${S.meta.start_date.replace(/-/g,".").slice(2)}<small class="n">– ${S.meta.exam_date.replace(/-/g,".").slice(2)}</small></dd></dl>
+  <dl><dt>残り</dt><dd><span class="n">${S.summary.weeks_left}</span> 週<small><span class="n">${S.summary.hours_left}</span> h</small></dd></dl>
+  <dl><dt>進捗</dt><dd><span class="n">${S.summary.pct}</span> %<small><span class="n">${S.summary.done}</span> / ${NW} 週</small></dd></dl>
+  <dl><dt>次の関門</dt><dd>${esc(S.summary.next_gate.name)}<small>W${S.summary.next_gate.week} ・ <span class="n">${Math.max(0,S.summary.next_gate.week-CUR)}</span> 週後</small></dd></dl>
+</section>
+
+<section class="hero">
+  <div>
+    <div class="kicker"><span class="lab" id="kLab">今週</span><span class="wk" id="kWk"></span><span class="dt" id="kDt"></span></div>
+    <div class="now"><span class="mark" id="hMark"></span>
+      <div><h2 id="hTitle"></h2><div class="full" id="hFull"></div></div></div>
+    <div class="pips" id="hPips"></div>
+    <div class="meta">
+      <span><b id="hDone">0</b> / <span class="n" id="hTot">0</span> 完了</span>
+      <span>残り <b id="hLeft">0</b> h</span>
+      <span>配分 <b id="hBudget">0</b> h</span>
+    </div>
+    <div class="steps"><h4>進めかたの目安</h4><ol id="hSteps"></ol></div>
+  </div>
+  <div class="side">
+    <h3>今週のトラック</h3>
+    <div id="sideRows"></div>
+    <div class="savebar">
+      <button class="mini" id="hCopy">記録をコピー</button>
+      <a class="mini g" id="hIssue" style="display:none" target="_blank" rel="noopener">週次 Issue を開く</a>
+      <span class="msg" id="hMsg">log.yaml に貼ってください</span>
+    </div>
+    <div class="linkbox" id="linkbox" style="display:none"><h4>今週つながっているもの</h4><div id="linkList"></div></div>
+  </div>
+</section>
+
+<section class="ribbon">
+  <div class="rb-head"><h3>${NW}週の進み</h3>
+    <span class="stat"><b class="n">${S.summary.done}</b> 完了 ・ <b class="n">${S.summary.slipped}</b> 未消化 ・ 残り <b class="n">${S.summary.remaining}</b></span></div>
+  <div class="rbscroll"><div class="rb" id="rb"></div>
+    <div class="rb-axis"><span>${S.meta.start_date.slice(2,7).replace("-",".")}</span><span>中間①</span><span>中間②</span><span>${S.meta.exam_date.replace(/-/g,".")} 本試験</span></div></div>
+</section>
+
+<details class="index" id="idx"><summary><span class="tri">▶</span> 全単元一覧<span class="hint">40単元 ／ いつ学ぶかと科目間の連結</span></summary>
+  <div class="idxbody">
+    <div class="idxtabs">
+      <button data-v="subject" class="on">科目別</button>
+      <button data-v="round">ローテ別</button>
+      <span class="note">行をタップするとその週へ</span>
+    </div>
+    <div id="idxContent"></div>
+  </div>
+</details>
+
+<details class="chart"><summary><span class="tri">▶</span> 年間ローテーション<span class="hint">1目盛 = 1週 ／ 1本の帯 = 1単元の3週間</span></summary>
+  <div class="chartbody"><div class="scroller"><div class="canvas" id="canvas"></div></div>
+  <div class="key">
+    <div><span class="sw"><i></i><i></i><i></i></span><span>新規 → 復習 → 過去問</span></div>
+    <div><span class="sw f"><i></i><i></i><i></i></span><span>未着手</span></div>
+    <div><span class="ln"></span><span>完了</span></div>
+    <div><span class="sw" style="width:16px"><i style="background:transparent;border:1px dashed var(--ink-3)"></i></span><span>未消化</span></div>
+    <div><span class="sw" style="width:16px"><i style="background:rgba(34,38,31,.12);border:1px solid var(--sumi)"></i></span><span>中間テスト</span></div>
+  </div></div>
+</details>
+
+<details class="set"><summary><span class="tri">▶</span> 書き出しと設定</summary>
+  <div class="setbody">
+    <p>data/plan.yaml が唯一の原本です。進捗は週次 Issue のチェック、または data/log.yaml を直接編集して記録します。</p>
+    <div class="setbtns">
+      <a class="mini" href="plan.ics" download>plan.ics を書き出す</a>
+      <a class="mini g" href="state.json" target="_blank">state.json</a>
+    </div>
+  </div>
+  <div class="conn">
+    <h4>端末間の同期</h4>
+    <div class="fields">
+      <input id="cRepo" placeholder="owner/repo" autocomplete="off" spellcheck="false">
+      <input id="cTok" type="password" placeholder="github_pat_..." autocomplete="off" spellcheck="false">
+      <button class="mini" id="cSave">接続</button>
+      <button class="mini g" id="cClear">切断</button>
+    </div>
+    <div class="st"><span class="dot" id="cDot"></span><span id="cSt">未接続 — チェックはこの端末の中だけです</span></div>
+    <div class="warn">
+      Fine-grained PAT を <b>このリポジトリだけ</b>・<b>Contents: Read and write</b> のみで発行してください。
+      トークンはこの端末のブラウザに保存されます。<b>GitHub Pages は同一アカウントの全サイトで保存領域を共有する</b>ため、
+      権限は最小に、有効期限は短めにしてください。
+    </div>
+  </div>
+</details>
+
+<div class="foot">
+  <span>全${NW}週 / 40単元 / ${S.summary.hours_total}h</span>
+  <span>本試験 ${S.meta.exam_date}（日）※日程は 2027年1月の公告で要確認</span>
+  <span>generated ${S.generated}</span>
+</div>`;
+
+/* ── リボン ─────────────────────────────────────── */
+const rb=document.getElementById("rb");
+function frac(r){const t=r.tracks||[];return t.length? t.filter(x=>x.done).length/t.length : 0}
+function paintRibbon(){
+  [...rb.children].forEach((b,i)=>{
+    const r=W[i], f=frac(r);
+    b.className = (r.status==="slipped"?"slip ":"") + (f===1?"done ":(f>0?"part ":"")) + (r.w===CUR?"now ":"") + (r.w===selected?"sel":"");
+  });
+}
+W.forEach(r=>{
+  const b=document.createElement("button");
+  b.style.setProperty("--c", r.new? SUB[r.new.subject].color : "#22261F");
+  b.title="W"+r.w+(r.new?` ${r.new.subject}${r.new.unit} ${r.new.short}`:` ${r.phase}`);
+  b.setAttribute("aria-label",b.title);
+  b.onclick=()=>sel(r.w);
+  rb.appendChild(b);
+});
+paintRibbon();
+
+/* ── チャート ───────────────────────────────────── */
+const cv=document.getElementById("canvas");
+cv.style.width=(GUT+COL*NW+44)+"px";
+const ruler=document.createElement("div");ruler.className="ruler";ruler.style.width=(COL*NW)+"px";
+let segs=[],c=null;
+W.forEach(r=>{const d=new Date(r.start),k=d.getFullYear()+"-"+d.getMonth();
+  if(!c||c.k!==k){c={k,st:r.w,n:0,d};segs.push(c)} c.n++});
+segs.forEach((s,i)=>{const e=document.createElement("div");e.className="mo";
+  if(i===0||s.d.getMonth()===0){e.classList.add("yr");e.dataset.y=s.d.getFullYear()}
+  e.style.left=((s.st-1)*COL)+"px";e.style.width=(s.n*COL)+"px";e.textContent=MON[s.d.getMonth()];ruler.appendChild(e)});
+cv.appendChild(ruler);
+
+const lanes=document.createElement("div");lanes.className="lanes";lanes.style.height=(LANE*5)+"px";
+const grid=document.createElement("div");grid.className="grid";grid.style.width=(COL*NW)+"px";
+segs.forEach(s=>{const i=document.createElement("i");i.style.left=((s.st-1)*COL)+"px";grid.appendChild(i)});
+lanes.appendChild(grid);
+ROT.forEach((name,i)=>{
+  const s=SUB[name];
+  const ln=document.createElement("div");ln.className="lane";ln.style.top=(i*LANE)+"px";
+  ln.innerHTML=`<div class="lnlab"><i style="background:${s.color}">${s.ch}</i><span><b>${name}</b><s>${s.iro} / ${s.questions}問</s></span></div>`;
+  const t=document.createElement("div");t.className="track";t.style.width=(COL*NW)+"px";
+  ln.appendChild(t);lanes.appendChild(ln);
+});
+const tracks=lanes.querySelectorAll(".track");
+
+const SEG={}, TKEY=["new","review","exam"];
+function trackDone(w,key){
+  const r=W.find(x=>x.w===w); if(!r) return false;
+  const t=(r.tracks||[]).find(x=>x.key===key); return !!(t&&t.done);
+}
+function paintSeg(w,key){
+  const el=SEG[w+":"+key]; if(!el) return;
+  const done=trackDone(w,key);
+  el.classList.toggle("fin",done);
+  el.classList.toggle("future",!done && w>CUR);
+}
+W.forEach(r=>{
+  if(!r.new) return;
+  const t=tracks[ROT.indexOf(r.new.subject)], span=Math.min(3,NW-r.w+1);
+  const slip = r.status==="slipped";
+  const bar=document.createElement("div");bar.className="bar"+(slip?" ghost":"");
+  bar.style.left=((r.w-1)*COL)+"px";bar.style.width=(span*COL-3)+"px";
+  for(let k=0;k<span;k++){
+    const sg=document.createElement("div");sg.className="seg s"+(k+1);
+    sg.style.background=r.new.color;
+    if(!slip){ SEG[(r.w+k)+":"+TKEY[k]]=sg; }
+    bar.appendChild(sg);
+  }
+  t.appendChild(bar);
+  const l=document.createElement("div");l.className="blabel"+(r.w>CUR?" future":"");
+  l.style.left=((r.w-1)*COL+1)+"px";
+  l.innerHTML=`<span class="u">${r.new.ch}${r.new.unit}</span><span class="nm">${esc(r.new.short)}</span>`;
+  t.appendChild(l);
+});
+W.filter(r=>r.final_subject).forEach(r=>{
+  const i=ROT.indexOf(r.final_subject),t=tracks[i];
+  const bar=document.createElement("div");bar.className="bar out";bar.style.color=SUB[r.final_subject].color;
+  bar.style.left=((r.w-1)*COL)+"px";bar.style.width=(COL-3)+"px";
+  bar.appendChild(document.createElement("div")).className="seg";t.appendChild(bar);
+  const l=document.createElement("div");l.className="blabel future";l.style.left=((r.w-1)*COL+1)+"px";
+  l.innerHTML='<span class="u">総</span>';t.appendChild(l);
+});
+Object.keys(SEG).forEach(k=>{const [w,key]=k.split(":");paintSeg(+w,key)});
+
+function band(w,sp,cls,tag){const b=document.createElement("div");b.className="band "+cls;
+  b.style.left=(GUT+(w-1)*COL)+"px";b.style.width=(sp*COL)+"px";
+  const t=document.createElement("div");t.className="btag";t.textContent=tag;b.appendChild(t);lanes.appendChild(b)}
+S.milestones.filter(m=>/中間/.test(m.name)).forEach(m=>band(m.week,1,"mid",m.name));
+band(49,3,"fin","年度別通し");
+
+const front=document.createElement("div");front.className="front";
+front.style.left=(GUT+(CUR-1)*COL)+"px";front.dataset.l="現在 W"+CUR;lanes.appendChild(front);
+const cursor=document.createElement("div");cursor.className="cursor";lanes.appendChild(cursor);
+const hits=document.createElement("div");hits.className="hits";hits.style.width=(COL*NW)+"px";
+W.forEach(r=>{const b=document.createElement("button");b.setAttribute("aria-label","第"+r.w+"週");b.onclick=()=>sel(r.w);hits.appendChild(b)});
+lanes.appendChild(hits);cv.appendChild(lanes);
+cv.style.height=(36+LANE*5+20)+"px";
+
+/* ── 選択 ───────────────────────────────────────── */
+function sel(w){
+  selected=w;
+  const r=W.find(x=>x.w===w);
+  cursor.style.left=(GUT+(w-1)*COL)+"px";
+  [...rb.children].forEach((b,i)=>b.classList.toggle("sel",i===w-1));
+
+  const lab=document.getElementById("kLab");
+  lab.textContent = w===CUR?"今週":(w<CUR?"完了した週":"これからの週");
+  lab.className = "lab"+(w===CUR?"":" alt");
+  document.getElementById("kWk").textContent="W"+String(w).padStart(2,"0");
+  document.getElementById("kDt").textContent=fd(r.start,true)+" – "+fd(r.end,false);
+
+  const mk=document.getElementById("hMark");
+  const n=r.new;
+  if(n){
+    mk.textContent=n.ch;mk.style.background=n.color;
+    document.getElementById("hTitle").innerHTML=esc(n.chapters.join(" ＋ "))+`<em>${n.subject} ${n.unit} / 8</em>`;
+    document.getElementById("hFull").textContent=r.phase+(r.round?` ・ 第${r.round}ローテ`:"");
+  }else if(r.final_subject){
+    mk.textContent=SUB[r.final_subject].ch;mk.style.background=SUB[r.final_subject].color;
+    document.getElementById("hTitle").innerHTML=esc(r.final_subject)+" 全8単元 総まとめ<em>直前期</em>";
+    document.getElementById("hFull").textContent=(r.final_extra||[]).join(" / ")||"速習 → 年度別10年分";
+  }else{
+    mk.textContent="試";mk.style.background="#22261F";
+    document.getElementById("hTitle").innerHTML=esc(r.phase)+"<em></em>";
+    const ms=S.milestones.find(m=>m.week===w);
+    document.getElementById("hFull").textContent=ms?ms.note:"—";
+  }
+
+  const pips=document.getElementById("hPips");pips.innerHTML="";
+  for(let i=0;i<r.tasks_total;i++){const e=document.createElement("i");if(i<r.tasks_done)e.className="on";pips.appendChild(e)}
+  document.getElementById("hDone").textContent=r.tasks_done;
+  document.getElementById("hTot").textContent=r.tasks_total;
+  document.getElementById("hBudget").textContent=r.budget;
+  document.getElementById("hLeft").textContent=Math.round(r.budget*(1-r.tasks_done/r.tasks_total)*10)/10;
+
+  document.getElementById("hSteps").innerHTML=(r.task_list||[]).map(x=>`<li>${esc(x)}</li>`).join("");
+
+  const host=document.getElementById("sideRows");host.innerHTML="";
+  (r.tracks||[]).forEach(tk=>{
+    const b=document.createElement("button");
+    b.className="trk"+(tk.done?" on":"");
+    b.setAttribute("aria-pressed",tk.done);
+    const u=tk.unit;
+    b.innerHTML=`<span class="box"></span><div class="b"><div class="tg">${esc(tk.label)}</div>`
+      + (u ? `<div class="h"><i style="background:${u.color}">${u.ch}</i>${u.subject} ${u.unit} ${esc(u.short)}</div>
+             <div class="d">${esc(u.chapters.join(" / "))}</div>`
+           : `<div class="h">${esc(tk.note||tk.label)}</div>`)
+      + `</div>`;
+    b.onclick=()=>{ tk.done=!tk.done; toggled=true; refresh(r); schedulePush(); };
+    host.appendChild(b);
+  });
+
+  const iss=document.getElementById("hIssue");
+  if(S.meta.repo){
+    iss.style.display="";
+    iss.href=`https://github.com/${S.meta.repo}/issues?q=` + encodeURIComponent(`W${String(w).padStart(2,"0")} in:title`);
+  }
+
+  const lb=document.getElementById("linkbox");
+  if(r.links && r.links.length){
+    lb.style.display="";
+    document.getElementById("linkList").innerHTML=r.links.map(x=>`<p>${esc(x)}</p>`).join("");
+  } else lb.style.display="none";
+}
+
+/* ── 全単元一覧 ─────────────────────────────────── */
+const UM = {};
+W.forEach(r=>{
+  const put=(u,f)=>{ if(!u) return; const k=u.subject+u.unit;
+    UM[k]=UM[k]||{u,round:null}; if(!UM[k][f]) UM[k][f]=r.w; };
+  if(r.new){ const k=r.new.subject+r.new.unit; UM[k]=UM[k]||{u:r.new}; UM[k].round=r.round; UM[k].nw=r.w; }
+  put(r.review,'rv'); put(r.exam,'ex');
+});
+const wkOf = w => W.find(x=>x.w===w);
+const md = w => { const r=wkOf(w); return r? fd(r.start,false) : ""; };
+const cls = e => e.nw < CUR ? (e.ex && e.ex>=CUR ? "now" : "done") : (e.nw===CUR ? "now" : "");
+
+function urow(e, showMark){
+  const u=e.u, c=SUB[u.subject];
+  const b=document.createElement("button");
+  b.className="urow "+cls(e);
+  b.onclick=()=>{ sel(e.nw); document.querySelector(".hero").scrollIntoView({behavior:"smooth",block:"start"}); };
+  b.innerHTML=
+    `<span class="r">R${e.round}</span>`
+    + (showMark?`<span class="nmk" style="background:${c.color}">${c.ch}</span>`:"")
+    + `<span class="nm">${showMark?esc(u.subject):""}${u.unit} <em>${esc(u.short)}</em></span>`
+    + `<span class="ch">${esc(u.chapters.join(" ＋ "))}</span>`
+    + `<span class="wk"><b>W${String(e.nw).padStart(2,"0")}</b> ${md(e.nw)}`
+    + `<s>復習 W${e.rv||"—"} ／ 過去問 W${e.ex||"—"}</s></span>`;
+  return b;
+}
+
+function renderIndex(view){
+  const host=document.getElementById("idxContent"); host.innerHTML="";
+  if(view==="subject"){
+    ROT.forEach(name=>{
+      const c=SUB[name], g=document.createElement("div"); g.className="grp";
+      const fin=W.find(r=>r.final_subject===name);
+      g.innerHTML=`<div class="grph"><i style="background:${c.color}">${c.ch}</i>
+        <b>${name}</b><s>${c.iro} ／ ${c.questions}問 ／ 8単元</s>
+        <span class="rng">総まとめ W${fin?fin.w:"—"}</span></div>`;
+      for(let i=1;i<=8;i++){ const e=UM[name+i]; if(e) g.appendChild(urow(e,false)); }
+      if(fin && fin.final_extra && fin.final_extra.length){
+        const b=document.createElement("button"); b.className="urow"; b.onclick=()=>sel(fin.w);
+        b.innerHTML=`<span class="r">直前</span><span class="nm">総まとめ</span>
+          <span class="ch">${esc(fin.final_extra.join(" / "))}</span>
+          <span class="wk"><b>W${fin.w}</b> ${md(fin.w)}<s>全8単元の速習</s></span>`;
+        g.appendChild(b);
+      }
+      host.appendChild(g);
+    });
+  } else {
+    for(let R=1;R<=8;R++){
+      const rows=ROT.map(n=>UM[n+R]).filter(Boolean);
+      if(!rows.length) continue;
+      const a=Math.min(...rows.map(e=>e.nw)), z=Math.max(...rows.map(e=>e.nw));
+      const g=document.createElement("div"); g.className="grp";
+      g.innerHTML=`<div class="grph"><b>第${R}ローテ</b>
+        <s>W${String(a).padStart(2,"0")} – W${String(z).padStart(2,"0")}</s>
+        <span class="rng">${md(a)} – ${md(z)}</span></div>`;
+      const links=(wkOf(a)||{}).links||[];
+      if(links.length){
+        const d=document.createElement("div"); d.className="grpl";
+        d.innerHTML=links.map(x=>`<p>${esc(x)}</p>`).join("");
+        g.appendChild(d);
+      }
+      rows.forEach(e=>g.appendChild(urow(e,true)));
+      host.appendChild(g);
+    }
+  }
+}
+document.querySelectorAll(".idxtabs button").forEach(b=>{
+  b.onclick=()=>{ document.querySelectorAll(".idxtabs button").forEach(x=>x.classList.remove("on"));
+    b.classList.add("on"); renderIndex(b.dataset.v); };
+});
+renderIndex("subject");
+
+let toggled=false;
+function refresh(r){
+  (r.tracks||[]).forEach(tk=>{ if(TKEY.includes(tk.key)) paintSeg(r.w,tk.key); });
+  paintRibbon();
+  sel(r.w);
+  document.getElementById("hMsg").textContent = toggled ? "未保存 — コピーして log.yaml へ" : "log.yaml に貼ってください";
+  document.getElementById("hMsg").style.color = toggled ? "#A87F27" : "";
+}
+document.getElementById("hCopy").onclick=()=>{
+  const r=W.find(x=>x.w===selected);
+  const L=[`W${String(r.w).padStart(2,"0")}:`];
+  (r.tracks||[]).forEach(tk=>L.push(`  ${tk.key}: ${tk.done}`));
+  if(r.hours) L.push(`  hours: ${r.hours}`);
+  const txt=L.join("\n");
+  (navigator.clipboard?navigator.clipboard.writeText(txt):Promise.reject())
+    .then(()=>document.getElementById("hMsg").textContent="コピーしました")
+    .catch(()=>window.prompt("log.yaml に貼ってください", txt));
+};
+sel(CUR);
+
+
+/* ══ 端末間の同期（GitHub Contents API） ══════════════
+   data/log.yaml を直接読み書きします。サーバは要りません。
+   Actions が state を作り直すのを待たずに、全端末で同じ値が見えます。 */
+const LOGPATH="data/log.yaml";
+const LS={ get(k){try{return localStorage.getItem(k)}catch(e){return null}},
+           set(k,v){try{localStorage.setItem(k,v)}catch(e){}},
+           del(k){try{localStorage.removeItem(k)}catch(e){}} };
+let CONN={repo:LS.get("kk_repo")||S.meta.repo||"", tok:LS.get("kk_tok")||"", sha:null};
+
+const b64=s=>btoa(String.fromCharCode.apply(null,new TextEncoder().encode(s)));
+const unb64=s=>new TextDecoder().decode(Uint8Array.from(atob(s.replace(/\n/g,"")),c=>c.charCodeAt(0)));
+
+function parseLog(txt){
+  const out={}; let cur=null;
+  txt.split(/\r?\n/).forEach(l=>{
+    if(!l.trim()||/^\s*#/.test(l)) return;
+    let m=l.match(/^(W\d+):\s*$/);
+    if(m){ cur=out[m[1]]={}; return; }
+    m=l.match(/^\s+([A-Za-z_]+):\s*(.*)$/);
+    if(m&&cur){ const v=m[2].trim();
+      cur[m[1]] = v==="true"?true : v==="false"?false
+                : (v!=="" && !isNaN(+v) ? +v : v.replace(/^["']|["']$/g,"")); }
+  });
+  return out;
+}
+const LOGHEAD = "# 記録。トラックを true にすると完了です。\n"
+              + "# new / review / exam / cum / test / final / years\n"
+              + "# 遅れたときだけ status: slipped と moved_to: を書きます。\n"
+              + "# このファイルは UI からも書き換わります。\n\n";
+function dumpLog(log){
+  const num=k=>parseInt(k.replace(/\D/g,""),10)||0;
+  return LOGHEAD + Object.keys(log).sort((a,b)=>num(a)-num(b)).map(k=>{
+    const v=log[k]||{};
+    const body=Object.keys(v).filter(f=>v[f]!==null&&v[f]!=="")
+      .map(f=>`  ${f}: ${v[f]}`).join("\n");
+    return k+":\n"+body;
+  }).join("\n\n")+"\n";
+}
+
+function st(msg,cls){ document.getElementById("cSt").textContent=msg;
+  document.getElementById("cDot").className="dot"+(cls?" "+cls:""); }
+
+async function api(path,opt){
+  const r=await fetch(`https://api.github.com/repos/${CONN.repo}/contents/${path}`,
+    Object.assign({headers:{Authorization:"Bearer "+CONN.tok,
+      Accept:"application/vnd.github+json","X-GitHub-Api-Version":"2022-11-28"}},opt||{}));
+  return r;
+}
+
+function applyLog(log){
+  W.forEach(r=>{
+    const e=log["W"+String(r.w).padStart(2,"0")]; if(!e) return;
+    (r.tracks||[]).forEach(tk=>{ if(e[tk.key]!==undefined) tk.done=!!e[tk.key]; });
+    if(e.hours!==undefined) r.hours=e.hours;
+    if(e.status) r.status=e.status;
+  });
+  Object.keys(SEG).forEach(k=>{const [w,key]=k.split(":");paintSeg(+w,key)});
+  paintRibbon(); sel(selected); renderIndex(document.querySelector(".idxtabs .on").dataset.v);
+}
+
+async function pull(){
+  if(!CONN.repo||!CONN.tok) return;
+  st("読み込み中…","busy");
+  try{
+    const r=await api(LOGPATH+"?ref=HEAD&t="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error(r.status===404?"log.yaml が見つかりません":`GitHub ${r.status}`);
+    const j=await r.json(); CONN.sha=j.sha;
+    applyLog(parseLog(unb64(j.content)));
+    st("接続済み — "+CONN.repo,"ok"); toggled=false;
+    document.getElementById("hMsg").textContent="自動で保存されます";
+    document.getElementById("hMsg").style.color="";
+  }catch(e){ st("失敗: "+e.message,"err"); }
+}
+
+let pushTimer=null, pushing=false;
+function schedulePush(){
+  if(!CONN.repo||!CONN.tok) return;
+  clearTimeout(pushTimer);
+  document.getElementById("hMsg").textContent="保存待ち…";
+  pushTimer=setTimeout(push,900);
+}
+async function push(retry){
+  if(pushing) return; pushing=true;
+  st("保存中…","busy");
+  try{
+    if(!CONN.sha){ const g=await api(LOGPATH); if(g.ok) CONN.sha=(await g.json()).sha; }
+    const cur=await api(LOGPATH); const j=cur.ok?await cur.json():null;
+    const log=j?parseLog(unb64(j.content)):{};
+    W.forEach(r=>{
+      const k="W"+String(r.w).padStart(2,"0");
+      const tks=r.tracks||[]; if(!tks.length) return;
+      const any=tks.some(t=>t.done);
+      if(!any && !log[k]) return;
+      const e=log[k]||{};
+      tks.forEach(t=>e[t.key]=t.done);
+      if(r.hours) e.hours=r.hours;
+      log[k]=e;
+    });
+    const res=await api(LOGPATH,{method:"PUT",body:JSON.stringify({
+      message:"chore: 進捗を更新",
+      content:b64(dumpLog(log)),
+      sha:j?j.sha:undefined })});
+    if(res.status===409&&!retry){ pushing=false; CONN.sha=null; return push(true); }
+    if(!res.ok) throw new Error("GitHub "+res.status);
+    CONN.sha=(await res.json()).content.sha;
+    st("接続済み — "+CONN.repo,"ok"); toggled=false;
+    document.getElementById("hMsg").textContent="保存しました "+new Date().toLocaleTimeString("ja-JP",{hour:"2-digit",minute:"2-digit"});
+    document.getElementById("hMsg").style.color="";
+  }catch(e){
+    st("保存に失敗: "+e.message,"err");
+    document.getElementById("hMsg").textContent="未保存 — コピーして log.yaml へ";
+    document.getElementById("hMsg").style.color="#A87F27";
+  }
+  pushing=false;
+}
+
+document.getElementById("cRepo").value=CONN.repo;
+document.getElementById("cTok").value=CONN.tok?"••••••••":"";
+document.getElementById("cSave").onclick=()=>{
+  const rp=document.getElementById("cRepo").value.trim();
+  const tk=document.getElementById("cTok").value.trim();
+  if(rp) { CONN.repo=rp; LS.set("kk_repo",rp); }
+  if(tk && !/^•+$/.test(tk)) { CONN.tok=tk; LS.set("kk_tok",tk); document.getElementById("cTok").value="••••••••"; }
+  CONN.sha=null; pull();
+};
+document.getElementById("cClear").onclick=()=>{
+  CONN={repo:S.meta.repo||"",tok:"",sha:null};
+  LS.del("kk_tok"); LS.del("kk_repo");
+  document.getElementById("cTok").value="";
+  st("未接続 — チェックはこの端末の中だけです","");
+  document.getElementById("hMsg").textContent="log.yaml に貼ってください";
+};
+if(CONN.repo&&CONN.tok) pull(); else st("未接続 — チェックはこの端末の中だけです","");
+document.addEventListener("visibilitychange",()=>{ if(!document.hidden&&CONN.tok) pull(); });
+
+  const g=document.querySelector(".foot");
+  if(g) g.insertAdjacentHTML("beforeend",
+    `<span>state ${S.generated} ／ 表示 ${new Date().toLocaleString("ja-JP",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"})}</span>`);
+}
+</script>
+</body>
+</html>

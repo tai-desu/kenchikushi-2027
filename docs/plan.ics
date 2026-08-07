@@ -1,0 +1,576 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//kenchikushi-2027//JP
+CALSCALE:GREGORIAN
+X-WR-CALNAME:一級建築士 学科 2027
+BEGIN:VEVENT
+UID:w01@kenchikushi-2027
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260810
+SUMMARY:W01 計画1 基本計画
+DESCRIPTION:新規: 1章 建築基本計画\n配分: 10.4h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w02@kenchikushi-2027
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260817
+SUMMARY:W02 環境1 環境伝熱
+DESCRIPTION:新規: 1章 環境 / 3章 伝熱・結露\n復習: 計画1 
+ 基本計画\n配分: 11.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w03@kenchikushi-2027
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260824
+SUMMARY:W03 法規1 総則
+DESCRIPTION:新規: 1章 総則\n復習: 環境1 環境伝熱\n過去問:
+  計画1 基本計画\n配分: 15.3h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w04@kenchikushi-2027
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260831
+SUMMARY:W04 構造1 力・静定
+DESCRIPTION:新規: 1章 力のつり合い / 2章 静定構造の応力\
+ n復習: 法規1 総則\n過去問: 環境1 環境伝熱\n配分: 15.3h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w05@kenchikushi-2027
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260907
+SUMMARY:W05 施工1 業務計画
+DESCRIPTION:新規: 1章 施工業務 / 2章 施工計画\n復習: 構造
+ 1 力・静定\n過去問: 法規1 総則\n配分: 12.9h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w06@kenchikushi-2027
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260914
+SUMMARY:W06 計画2 計画一般
+DESCRIPTION:新規: 6章 建築計画一般\n復習: 施工1 業務計画
+ \n過去問: 構造1 力・静定\n配分: 10.4h\n連結: 環境の採
+ 光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸
+ 法
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w07@kenchikushi-2027
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260921
+SUMMARY:W07 環境2 換気採光
+DESCRIPTION:新規: 2章 換気 / 5章 採光\n復習: 計画2 計画一
+ 般\n過去問: 施工1 業務計画\n配分: 11.0h\n連結: 環境の
+ 採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部
+ 寸法
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w08@kenchikushi-2027
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260928
+SUMMARY:W08 法規2 一般構造
+DESCRIPTION:新規: 2章 一般構造\n復習: 環境2 換気採光\n過
+ 去問: 計画2 計画一般\n配分: 15.3h\n連結: 環境の採光・
+ 換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w09@kenchikushi-2027
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261005
+SUMMARY:W09 構造2 断面応力
+DESCRIPTION:新規: 3章 断面性質 / 4章 応力度・座屈・変形\
+ n復習: 法規2 一般構造\n過去問: 環境2 換気採光\n配分: 
+ 15.3h\n連結: 環境の採光・換気 ↔ 法規2章の 1/7・1/20 規
+ 定 ↔ 計画の各部寸法
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w10@kenchikushi-2027
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261012
+SUMMARY:W10 施工2 管理仮設
+DESCRIPTION:新規: 3章 施工管理 / 4章 仮設工事\n復習: 構造
+ 2 断面応力\n過去問: 法規2 一般構造\n配分: 12.9h\n連結: 
+ 環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画
+ の各部寸法
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w11@kenchikushi-2027
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261019
+SUMMARY:W11 計画3 公共
+DESCRIPTION:新規: 3章 公共建築計画\n復習: 施工2 管理仮設
+ \n過去問: 構造2 断面応力\n配分: 10.4h\n連結: 環境の音
+ 響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上
+ げ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w12@kenchikushi-2027
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261026
+SUMMARY:W12 環境3 色彩音響
+DESCRIPTION:新規: 6章 色彩 / 7章 音響\n復習: 計画3 公共\n
+ 過去問: 施工2 管理仮設\n配分: 11.0h\n連結: 環境の音響
+ ・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w13@kenchikushi-2027
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261102
+SUMMARY:W13 法規3 集団①
+DESCRIPTION:新規: 6章 都市計画区域等の制限 ①（用途地
+ 域・容積率・建蔽率・道路）\n復習: 環境3 色彩音響\n
+ 過去問: 計画3 公共\n配分: 15.3h\n連結: 環境の音響・色
+ 彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w14@kenchikushi-2027
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261109
+SUMMARY:W14 構造3 不静定振動
+DESCRIPTION:新規: 5章 不静定構造の反力 / 6章 振動・構造
+ 物の崩壊 / 14章 制振構造・免震構造\n復習: 法規3 集団
+ ①\n過去問: 環境3 色彩音響\n配分: 15.3h\n連結: 環境の
+ 音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕
+ 上げ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w15@kenchikushi-2027
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261116
+SUMMARY:W15 施工3 仕上げ
+DESCRIPTION:新規: 13章 仕上げ工事\n復習: 構造3 不静定振
+ 動\n過去問: 法規3 集団①\n配分: 12.9h\n連結: 環境の音
+ 響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上
+ げ
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w16@kenchikushi-2027
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261123
+SUMMARY:W16 計画4 都市計画
+DESCRIPTION:新規: 9章 都市計画\n復習: 施工3 仕上げ\n過去
+ 問: 構造3 不静定振動\n配分: 10.4h\n連結: 環境の日影 ↔
+  法規の日影規制 ↔ 計画の都市計画\n連結: 構造の地
+ 盤・基礎 ↔ 施工の地盤調査・山留・杭
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w17@kenchikushi-2027
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261130
+SUMMARY:W17 環境4 日照日射
+DESCRIPTION:新規: 4章 日照・日影・日射\n復習: 計画4 都市
+ 計画\n過去問: 施工3 仕上げ\n配分: 11.0h\n連結: 環境の
+ 日影 ↔ 法規の日影規制 ↔ 計画の都市計画\n連結: 構
+ 造の地盤・基礎 ↔ 施工の地盤調査・山留・杭
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w18@kenchikushi-2027
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261207
+SUMMARY:W18 法規4 集団②
+DESCRIPTION:新規: 6章 都市計画区域等の制限 ②（高さ制
+ 限・日影規制） / 7章 建築協定，雑則等\n復習: 環境4 
+ 日照日射\n過去問: 計画4 都市計画\n配分: 15.3h\n連結: 
+ 環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画\n連
+ 結: 構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w19@kenchikushi-2027
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261214
+SUMMARY:W19 構造4 地盤基礎
+DESCRIPTION:新規: 15章 地盤・基礎構造\n復習: 法規4 集団
+ ②\n過去問: 環境4 日照日射\n配分: 15.3h\n連結: 環境の
+ 日影 ↔ 法規の日影規制 ↔ 計画の都市計画\n連結: 構
+ 造の地盤・基礎 ↔ 施工の地盤調査・山留・杭
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w20@kenchikushi-2027
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261221
+SUMMARY:W20 施工4 地盤土工
+DESCRIPTION:新規: 5章 地盤調査 / 6章 土工事・山留工事 / 7
+ 章 基礎・地業工事\n復習: 構造4 地盤基礎\n過去問: 法
+ 規4 集団②\n配分: 12.9h\n連結: 環境の日影 ↔ 法規の日
+ 影規制 ↔ 計画の都市計画\n連結: 構造の地盤・基礎 
+ ↔ 施工の地盤調査・山留・杭
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w21@kenchikushi-2027
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261228
+SUMMARY:W21 中間テスト①
+DESCRIPTION:復習: 施工4 地盤土工\n過去問: 構造4 地盤基礎
+ \n配分: 12.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w22@kenchikushi-2027
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20270104
+SUMMARY:W22 予備週
+DESCRIPTION:復習: 施工4 地盤土工\n過去問: 構造4 地盤基礎
+ \n配分: 10.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w23@kenchikushi-2027
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270111
+SUMMARY:W23 計画5 住宅
+DESCRIPTION:新規: 2章 住宅建築計画\n復習: 施工4 地盤土工
+ \n過去問: 構造4 地盤基礎\n配分: 12.0h\n連結: 法規3章 構
+ 造強度（計算ルート）↔ 構造の一次設計・構造計画
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w24@kenchikushi-2027
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270118
+SUMMARY:W24 環境5 環境融合
+DESCRIPTION:新規: 8章 環境工学融合\n復習: 計画5 住宅\n過
+ 去問: 施工4 地盤土工\n配分: 12.7h\n連結: 法規3章 構造
+ 強度（計算ルート）↔ 構造の一次設計・構造計画
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w25@kenchikushi-2027
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270125
+SUMMARY:W25 法規5 構造強度
+DESCRIPTION:新規: 3章 構造強度\n復習: 環境5 環境融合\n過
+ 去問: 計画5 住宅\n配分: 17.7h\n連結: 法規3章 構造強度
+ （計算ルート）↔ 構造の一次設計・構造計画
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w26@kenchikushi-2027
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270201
+SUMMARY:W26 構造5 一次設計
+DESCRIPTION:新規: 7章 一次設計 / 8章 構造計画・構造計算\
+ n復習: 法規5 構造強度\n過去問: 環境5 環境融合\n配分: 
+ 17.7h\n連結: 法規3章 構造強度（計算ルート）↔ 構造の
+ 一次設計・構造計画
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w27@kenchikushi-2027
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270208
+SUMMARY:W27 施工5 鉄筋型枠
+DESCRIPTION:新規: 8章 鉄筋工事 / 9章 型枠工事\n復習: 構造
+ 5 一次設計\n過去問: 法規5 構造強度\n配分: 14.9h\n連結: 
+ 法規3章 構造強度（計算ルート）↔ 構造の一次設計・
+ 構造計画
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w28@kenchikushi-2027
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270215
+SUMMARY:W28 計画6 商業
+DESCRIPTION:新規: 4章 商業建築計画\n復習: 施工5 鉄筋型枠
+ \n過去問: 構造5 一次設計\n配分: 12.0h\n連結: 構造のRC 
+ ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも
+ 重なる）
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w29@kenchikushi-2027
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270222
+SUMMARY:W29 環境6 空調
+DESCRIPTION:新規: 9章 空気調和設備\n復習: 計画6 商業\n過
+ 去問: 施工5 鉄筋型枠\n配分: 12.7h\n連結: 構造のRC ↔ 施
+ 工のコンクリート・PCa（前週の鉄筋・型枠とも重なる
+ ）
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w30@kenchikushi-2027
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270301
+SUMMARY:W30 法規6 防火
+DESCRIPTION:新規: 4章 防火規定\n復習: 環境6 空調\n過去問:
+  計画6 商業\n配分: 17.7h\n連結: 構造のRC ↔ 施工のコン
+ クリート・PCa（前週の鉄筋・型枠とも重なる）
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w31@kenchikushi-2027
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270308
+SUMMARY:W31 構造6 RC壁式
+DESCRIPTION:新規: 11章 RC構造 / 12章 壁式・プレストレスト
+ コンクリート構造\n復習: 法規6 防火\n過去問: 環境6 空
+ 調\n配分: 17.7h\n連結: 構造のRC ↔ 施工のコンクリート
+ ・PCa（前週の鉄筋・型枠とも重なる）
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w32@kenchikushi-2027
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270315
+SUMMARY:W32 施工6 コンPCa
+DESCRIPTION:新規: 10章 コンクリート工事 / 11章 プレキャ
+ ストRC工事\n復習: 構造6 RC壁式\n過去問: 法規6 防火\n配
+ 分: 14.9h\n連結: 構造のRC ↔ 施工のコンクリート・PCa（
+ 前週の鉄筋・型枠とも重なる）
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w33@kenchikushi-2027
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270322
+SUMMARY:W33 計画7 建築史
+DESCRIPTION:新規: 10章 建築史\n復習: 施工6 コンPCa\n過去問
+ : 構造6 RC壁式\n配分: 12.0h\n連結: 構造のS造 ↔ 施工の
+ 鉄骨\n連結: 環境の消火・防災設備 ↔ 法規5章 建築設
+ 備
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w34@kenchikushi-2027
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270329
+SUMMARY:W34 環境7 照明防災
+DESCRIPTION:新規: 12章 照明設備 / 13章 消火・防災設備\n復
+ 習: 計画7 建築史\n過去問: 施工6 コンPCa\n配分: 12.7h\n連
+ 結: 構造のS造 ↔ 施工の鉄骨\n連結: 環境の消火・防災
+ 設備 ↔ 法規5章 建築設備
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w35@kenchikushi-2027
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270405
+SUMMARY:W35 法規7 避難設備
+DESCRIPTION:新規: 5章 避難規定，建築設備\n復習: 環境7 照
+ 明防災\n過去問: 計画7 建築史\n配分: 17.7h\n連結: 構造
+ のS造 ↔ 施工の鉄骨\n連結: 環境の消火・防災設備 ↔ 
+ 法規5章 建築設備
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w36@kenchikushi-2027
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270412
+SUMMARY:W36 構造7 S合成
+DESCRIPTION:新規: 10章 S構造 / 13章 合成構造\n復習: 法規7 
+ 避難設備\n過去問: 環境7 照明防災\n配分: 17.7h\n連結: 
+ 構造のS造 ↔ 施工の鉄骨\n連結: 環境の消火・防災設
+ 備 ↔ 法規5章 建築設備
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w37@kenchikushi-2027
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270419
+SUMMARY:W37 施工7 鉄骨
+DESCRIPTION:新規: 12章 鉄骨工事\n復習: 構造7 S合成\n過去
+ 問: 法規7 避難設備\n配分: 14.9h\n連結: 構造のS造 ↔ 施
+ 工の鉄骨\n連結: 環境の消火・防災設備 ↔ 法規5章 建
+ 築設備
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w38@kenchikushi-2027
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270426
+SUMMARY:W38 計画8 積算生産
+DESCRIPTION:新規: 7章 建築積算 / 8章 建築生産\n復習: 施工
+ 7 鉄骨\n過去問: 構造7 S合成\n配分: 12.0h\n連結: 計画の
+ 建築生産 ↔ 法規の建築士法・建設業法\n連結: 環境の
+ 給排水・電気 ↔ 施工の設備工事\n連結: 法規の耐震改
+ 修促進法 ↔ 施工の改修工事
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w39@kenchikushi-2027
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270503
+SUMMARY:W39 環境8 給排水電気
+DESCRIPTION:新規: 10章 給排水設備 / 11章 電気・搬送設備\n
+ 復習: 計画8 積算生産\n過去問: 施工7 鉄骨\n配分: 12.7h\n
+ 連結: 計画の建築生産 ↔ 法規の建築士法・建設業法\n
+ 連結: 環境の給排水・電気 ↔ 施工の設備工事\n連結: 
+ 法規の耐震改修促進法 ↔ 施工の改修工事
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w40@kenchikushi-2027
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270510
+SUMMARY:W40 法規8 士法法令
+DESCRIPTION:新規: 8章 建築司法 / 9章 その他の関係法令\n
+ 復習: 環境8 給排水電気\n過去問: 計画8 積算生産\n配分
+ : 17.7h\n連結: 計画の建築生産 ↔ 法規の建築士法・建
+ 設業法\n連結: 環境の給排水・電気 ↔ 施工の設備工事
+ \n連結: 法規の耐震改修促進法 ↔ 施工の改修工事
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w41@kenchikushi-2027
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270517
+SUMMARY:W41 構造8 木造
+DESCRIPTION:新規: 9章 木造構造\n復習: 法規8 士法法令\n過
+ 去問: 環境8 給排水電気\n配分: 17.7h\n連結: 計画の建築
+ 生産 ↔ 法規の建築士法・建設業法\n連結: 環境の給排
+ 水・電気 ↔ 施工の設備工事\n連結: 法規の耐震改修促
+ 進法 ↔ 施工の改修工事
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w42@kenchikushi-2027
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270524
+SUMMARY:W42 施工8 改修設備
+DESCRIPTION:新規: 14章 改修工事 / 15章 設備工事\n復習: 構
+ 造8 木造\n過去問: 法規8 士法法令\n配分: 14.9h\n連結: 計
+ 画の建築生産 ↔ 法規の建築士法・建設業法\n連結: 環
+ 境の給排水・電気 ↔ 施工の設備工事\n連結: 法規の耐
+ 震改修促進法 ↔ 施工の改修工事
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w43@kenchikushi-2027
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270531
+SUMMARY:W43 中間テスト②
+DESCRIPTION:復習: 施工8 改修設備\n過去問: 構造8 木造\n配
+ 分: 15.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w44@kenchikushi-2027
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270607
+SUMMARY:W44 計画 総まとめ
+DESCRIPTION:回収: 5章 公共・商業建築計画融合\n配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w45@kenchikushi-2027
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270614
+SUMMARY:W45 環境 総まとめ
+DESCRIPTION:回収: 14章 環境・設備融合\n配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w46@kenchikushi-2027
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270621
+SUMMARY:W46 法規 総まとめ
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w47@kenchikushi-2027
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270628
+SUMMARY:W47 構造 総まとめ
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w48@kenchikushi-2027
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270705
+SUMMARY:W48 施工 総まとめ
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w49@kenchikushi-2027
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270712
+SUMMARY:W49 直前期
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w50@kenchikushi-2027
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270719
+SUMMARY:W50 直前期
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:w51@kenchikushi-2027
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270726
+SUMMARY:W51 直前期
+DESCRIPTION:配分: 20.0h
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:ms21@kenchikushi-2027
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:★ 中間テスト①
+DESCRIPTION:各科目 単元1〜4 ／ 62問・3.5h
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:中間テスト① まで1週間
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ms22@kenchikushi-2027
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:★ 法令集セットアップ
+DESCRIPTION:2027年版を購入し線引き
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:法令集セットアップ まで1週間
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ms43@kenchikushi-2027
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270525
+SUMMARY:★ 中間テスト②
+DESCRIPTION:全範囲 125問 ／ 本番と同じ時間割
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:中間テスト② まで1週間
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ms51@kenchikushi-2027
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:★ 本試験
+DESCRIPTION:2027-07-25（日）
+BEGIN:VALARM
+TRIGGER:-P7D
+ACTION:DISPLAY
+DESCRIPTION:本試験 まで1週間
+END:VALARM
+END:VEVENT
+END:VCALENDAR
