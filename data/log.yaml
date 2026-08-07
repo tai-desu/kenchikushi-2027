@@ -6,3 +6,8 @@
 W01:
   new: false
   cum: false
+
+W02:
+  new: true
+  review: false
+  cum: false
