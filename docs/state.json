@@ -146,8 +146,8 @@
    },
    "exam": null,
    "budget": 11.0,
-   "status": "planned",
-   "tasks_done": 0,
+   "status": "in_progress",
+   "tasks_done": 1,
    "tasks_total": 3,
    "tracks": [
     {
@@ -165,7 +165,7 @@
       ]
      },
      "note": null,
-     "done": false
+     "done": true
     },
     {
      "key": "review",
