@@ -9,5 +9,5 @@ W01:
 
 W02:
   new: true
-  review: true
+  review: false
   cum: false
