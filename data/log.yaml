@@ -5,7 +5,7 @@
 
 W01:
   new: true
-  cum: false
+  cum: true
 
 W02:
   new: true
