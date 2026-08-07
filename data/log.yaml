@@ -4,7 +4,7 @@
 # このファイルは UI からも書き換わります。
 
 W01:
-  new: true
+  new: false
   cum: false
 
 W02:
