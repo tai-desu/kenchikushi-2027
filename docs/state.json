@@ -50,8 +50,8 @@
   "構造",
   "施工"
  ],
- "generated": "2026-08-07",
- "current": 1,
+ "generated": "2026-09-14",
+ "current": 7,
  "weeks": [
   {
    "w": 1,
@@ -245,8 +245,8 @@
     ]
    },
    "budget": 15.3,
-   "status": "planned",
-   "tasks_done": 0,
+   "status": "in_progress",
+   "tasks_done": 1,
    "tasks_total": 4,
    "tracks": [
     {
@@ -263,7 +263,7 @@
       ]
      },
      "note": null,
-     "done": false
+     "done": true
     },
     {
      "key": "review",
@@ -316,7 +316,7 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
+   "exam_result": false,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -5381,7 +5381,7 @@
   "pct": 2,
   "hours_total": 757,
   "hours_left": 746,
-  "weeks_left": 50,
+  "weeks_left": 44,
   "next_gate": {
    "week": 21,
    "name": "中間テスト①",
