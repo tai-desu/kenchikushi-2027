@@ -11,3 +11,9 @@ W02:
   new: true
   review: false
   cum: false
+
+W03:
+  new: true
+  review: false
+  exam: false
+  cum: false
