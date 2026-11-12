@@ -20,9 +20,11 @@ if r["links"]:
 out.append("## トラック")
 for t in r["tracks"]:
     mark = "x" if t["done"] else " "
-    if t["unit"]:
-        u = t["unit"]
-        body = f'{t["label"]} — {u["subject"]}{u["unit"]} {u["short"]}（{" / ".join(u["chapters"])}）'
+    if t["units"]:
+        us = " ＋ ".join(
+            f'{u["subject"]}{u["unit"]} {u["short"]}（{" / ".join(u["chapters"])}）' for u in t["units"]
+        )
+        body = f'{t["label"]} — {us}'
     else:
         body = f'{t["label"]}' + (f' — {t["note"]}' if t.get("note") else "")
     out.append(f"- [{mark}] {body}")
