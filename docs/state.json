@@ -50,8 +50,9 @@
   "構造",
   "施工"
  ],
- "generated": "2026-09-14",
- "current": 7,
+ "generated": "2026-11-12",
+ "current": 15,
+ "prior": [],
  "weeks": [
   {
    "w": 1,
@@ -59,48 +60,15 @@
    "end": "2026-08-09",
    "phase": "基礎期",
    "type": "study",
-   "round": 1,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 1,
-    "short": "基本計画",
-    "chapters": [
-     "1章 建築基本計画"
-    ]
-   },
-   "review": null,
-   "exam": null,
-   "budget": 10.4,
-   "status": "done",
-   "tasks_done": 2,
-   "tasks_total": 2,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 1,
-      "short": "基本計画",
-      "chapters": [
-       "1章 建築基本計画"
-      ]
-     },
-     "note": null,
-     "done": true
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": true
-    }
-   ],
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
+   "status": "planned",
+   "tasks_done": 0,
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -111,7 +79,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -122,75 +89,15 @@
    "end": "2026-08-16",
    "phase": "基礎期",
    "type": "study",
-   "round": 1,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 1,
-    "short": "環境伝熱",
-    "chapters": [
-     "1章 環境",
-     "3章 伝熱・結露"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 1,
-    "short": "基本計画",
-    "chapters": [
-     "1章 建築基本計画"
-    ]
-   },
-   "exam": null,
-   "budget": 11.0,
-   "status": "in_progress",
-   "tasks_done": 1,
-   "tasks_total": 3,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 1,
-      "short": "環境伝熱",
-      "chapters": [
-       "1章 環境",
-       "3章 伝熱・結露"
-      ]
-     },
-     "note": null,
-     "done": true
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 1,
-      "short": "基本計画",
-      "chapters": [
-       "1章 建築基本計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
+   "status": "planned",
+   "tasks_done": 0,
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -201,7 +108,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -212,100 +118,15 @@
    "end": "2026-08-23",
    "phase": "基礎期",
    "type": "study",
-   "round": 1,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 1,
-    "short": "総則",
-    "chapters": [
-     "1章 総則"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 1,
-    "short": "環境伝熱",
-    "chapters": [
-     "1章 環境",
-     "3章 伝熱・結露"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 1,
-    "short": "基本計画",
-    "chapters": [
-     "1章 建築基本計画"
-    ]
-   },
-   "budget": 15.3,
-   "status": "in_progress",
-   "tasks_done": 1,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 1,
-      "short": "総則",
-      "chapters": [
-       "1章 総則"
-      ]
-     },
-     "note": null,
-     "done": true
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 1,
-      "short": "環境伝熱",
-      "chapters": [
-       "1章 環境",
-       "3章 伝熱・結露"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 1,
-      "short": "基本計画",
-      "chapters": [
-       "1章 建築基本計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
+   "status": "planned",
+   "tasks_done": 0,
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -316,7 +137,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": false,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -327,102 +147,15 @@
    "end": "2026-08-30",
    "phase": "基礎期",
    "type": "study",
-   "round": 1,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 1,
-    "short": "力・静定",
-    "chapters": [
-     "1章 力のつり合い",
-     "2章 静定構造の応力"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 1,
-    "short": "総則",
-    "chapters": [
-     "1章 総則"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 1,
-    "short": "環境伝熱",
-    "chapters": [
-     "1章 環境",
-     "3章 伝熱・結露"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 1,
-      "short": "力・静定",
-      "chapters": [
-       "1章 力のつり合い",
-       "2章 静定構造の応力"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 1,
-      "short": "総則",
-      "chapters": [
-       "1章 総則"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 1,
-      "short": "環境伝熱",
-      "chapters": [
-       "1章 環境",
-       "3章 伝熱・結露"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -433,7 +166,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -444,102 +176,15 @@
    "end": "2026-09-06",
    "phase": "基礎期",
    "type": "study",
-   "round": 1,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 1,
-    "short": "業務計画",
-    "chapters": [
-     "1章 施工業務",
-     "2章 施工計画"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 1,
-    "short": "力・静定",
-    "chapters": [
-     "1章 力のつり合い",
-     "2章 静定構造の応力"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 1,
-    "short": "総則",
-    "chapters": [
-     "1章 総則"
-    ]
-   },
-   "budget": 12.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 1,
-      "short": "業務計画",
-      "chapters": [
-       "1章 施工業務",
-       "2章 施工計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 1,
-      "short": "力・静定",
-      "chapters": [
-       "1章 力のつり合い",
-       "2章 静定構造の応力"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 1,
-      "short": "総則",
-      "chapters": [
-       "1章 総則"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -550,7 +195,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -561,102 +205,15 @@
    "end": "2026-09-13",
    "phase": "基礎期",
    "type": "study",
-   "round": 2,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 2,
-    "short": "計画一般",
-    "chapters": [
-     "6章 建築計画一般"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 1,
-    "short": "業務計画",
-    "chapters": [
-     "1章 施工業務",
-     "2章 施工計画"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 1,
-    "short": "力・静定",
-    "chapters": [
-     "1章 力のつり合い",
-     "2章 静定構造の応力"
-    ]
-   },
-   "budget": 10.4,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 2,
-      "short": "計画一般",
-      "chapters": [
-       "6章 建築計画一般"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 1,
-      "short": "業務計画",
-      "chapters": [
-       "1章 施工業務",
-       "2章 施工計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 1,
-      "short": "力・静定",
-      "chapters": [
-       "1章 力のつり合い",
-       "2章 静定構造の応力"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -667,12 +224,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法"
-   ]
+   "links": []
   },
   {
    "w": 7,
@@ -680,102 +234,15 @@
    "end": "2026-09-20",
    "phase": "基礎期",
    "type": "study",
-   "round": 2,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 2,
-    "short": "換気採光",
-    "chapters": [
-     "2章 換気",
-     "5章 採光"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 2,
-    "short": "計画一般",
-    "chapters": [
-     "6章 建築計画一般"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 1,
-    "short": "業務計画",
-    "chapters": [
-     "1章 施工業務",
-     "2章 施工計画"
-    ]
-   },
-   "budget": 11.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 2,
-      "short": "換気採光",
-      "chapters": [
-       "2章 換気",
-       "5章 採光"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 2,
-      "short": "計画一般",
-      "chapters": [
-       "6章 建築計画一般"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 1,
-      "short": "業務計画",
-      "chapters": [
-       "1章 施工業務",
-       "2章 施工計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -786,12 +253,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法"
-   ]
+   "links": []
   },
   {
    "w": 8,
@@ -799,100 +263,15 @@
    "end": "2026-09-27",
    "phase": "基礎期",
    "type": "study",
-   "round": 2,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 2,
-    "short": "一般構造",
-    "chapters": [
-     "2章 一般構造"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 2,
-    "short": "換気採光",
-    "chapters": [
-     "2章 換気",
-     "5章 採光"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 2,
-    "short": "計画一般",
-    "chapters": [
-     "6章 建築計画一般"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 2,
-      "short": "一般構造",
-      "chapters": [
-       "2章 一般構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 2,
-      "short": "換気採光",
-      "chapters": [
-       "2章 換気",
-       "5章 採光"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 2,
-      "short": "計画一般",
-      "chapters": [
-       "6章 建築計画一般"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -903,12 +282,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法"
-   ]
+   "links": []
   },
   {
    "w": 9,
@@ -916,102 +292,15 @@
    "end": "2026-10-04",
    "phase": "基礎期",
    "type": "study",
-   "round": 2,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 2,
-    "short": "断面応力",
-    "chapters": [
-     "3章 断面性質",
-     "4章 応力度・座屈・変形"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 2,
-    "short": "一般構造",
-    "chapters": [
-     "2章 一般構造"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 2,
-    "short": "換気採光",
-    "chapters": [
-     "2章 換気",
-     "5章 採光"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 2,
-      "short": "断面応力",
-      "chapters": [
-       "3章 断面性質",
-       "4章 応力度・座屈・変形"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 2,
-      "short": "一般構造",
-      "chapters": [
-       "2章 一般構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 2,
-      "short": "換気採光",
-      "chapters": [
-       "2章 換気",
-       "5章 採光"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1022,12 +311,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法"
-   ]
+   "links": []
   },
   {
    "w": 10,
@@ -1035,102 +321,15 @@
    "end": "2026-10-11",
    "phase": "基礎期",
    "type": "study",
-   "round": 2,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 2,
-    "short": "管理仮設",
-    "chapters": [
-     "3章 施工管理",
-     "4章 仮設工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 2,
-    "short": "断面応力",
-    "chapters": [
-     "3章 断面性質",
-     "4章 応力度・座屈・変形"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 2,
-    "short": "一般構造",
-    "chapters": [
-     "2章 一般構造"
-    ]
-   },
-   "budget": 12.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 2,
-      "short": "管理仮設",
-      "chapters": [
-       "3章 施工管理",
-       "4章 仮設工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 2,
-      "short": "断面応力",
-      "chapters": [
-       "3章 断面性質",
-       "4章 応力度・座屈・変形"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 2,
-      "short": "一般構造",
-      "chapters": [
-       "2章 一般構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1141,12 +340,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の採光・換気 ↔ 法規2章の 1/7・1/20 規定 ↔ 計画の各部寸法"
-   ]
+   "links": []
   },
   {
    "w": 11,
@@ -1154,102 +350,15 @@
    "end": "2026-10-18",
    "phase": "基礎期",
    "type": "study",
-   "round": 3,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 3,
-    "short": "公共",
-    "chapters": [
-     "3章 公共建築計画"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 2,
-    "short": "管理仮設",
-    "chapters": [
-     "3章 施工管理",
-     "4章 仮設工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 2,
-    "short": "断面応力",
-    "chapters": [
-     "3章 断面性質",
-     "4章 応力度・座屈・変形"
-    ]
-   },
-   "budget": 10.4,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 3,
-      "short": "公共",
-      "chapters": [
-       "3章 公共建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 2,
-      "short": "管理仮設",
-      "chapters": [
-       "3章 施工管理",
-       "4章 仮設工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 2,
-      "short": "断面応力",
-      "chapters": [
-       "3章 断面性質",
-       "4章 応力度・座屈・変形"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1260,12 +369,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ"
-   ]
+   "links": []
   },
   {
    "w": 12,
@@ -1273,102 +379,15 @@
    "end": "2026-10-25",
    "phase": "基礎期",
    "type": "study",
-   "round": 3,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 3,
-    "short": "色彩音響",
-    "chapters": [
-     "6章 色彩",
-     "7章 音響"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 3,
-    "short": "公共",
-    "chapters": [
-     "3章 公共建築計画"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 2,
-    "short": "管理仮設",
-    "chapters": [
-     "3章 施工管理",
-     "4章 仮設工事"
-    ]
-   },
-   "budget": 11.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 3,
-      "short": "色彩音響",
-      "chapters": [
-       "6章 色彩",
-       "7章 音響"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 3,
-      "short": "公共",
-      "chapters": [
-       "3章 公共建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 2,
-      "short": "管理仮設",
-      "chapters": [
-       "3章 施工管理",
-       "4章 仮設工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1379,12 +398,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ"
-   ]
+   "links": []
   },
   {
    "w": 13,
@@ -1392,100 +408,15 @@
    "end": "2026-11-01",
    "phase": "基礎期",
    "type": "study",
-   "round": 3,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 3,
-    "short": "集団①",
-    "chapters": [
-     "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 3,
-    "short": "色彩音響",
-    "chapters": [
-     "6章 色彩",
-     "7章 音響"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 3,
-    "short": "公共",
-    "chapters": [
-     "3章 公共建築計画"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 3,
-      "short": "集団①",
-      "chapters": [
-       "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 3,
-      "short": "色彩音響",
-      "chapters": [
-       "6章 色彩",
-       "7章 音響"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 3,
-      "short": "公共",
-      "chapters": [
-       "3章 公共建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1496,12 +427,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ"
-   ]
+   "links": []
   },
   {
    "w": 14,
@@ -1509,104 +437,15 @@
    "end": "2026-11-08",
    "phase": "基礎期",
    "type": "study",
-   "round": 3,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 3,
-    "short": "不静定振動",
-    "chapters": [
-     "5章 不静定構造の反力",
-     "6章 振動・構造物の崩壊",
-     "14章 制振構造・免震構造"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 3,
-    "short": "集団①",
-    "chapters": [
-     "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 3,
-    "short": "色彩音響",
-    "chapters": [
-     "6章 色彩",
-     "7章 音響"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 3,
-      "short": "不静定振動",
-      "chapters": [
-       "5章 不静定構造の反力",
-       "6章 振動・構造物の崩壊",
-       "14章 制振構造・免震構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 3,
-      "short": "集団①",
-      "chapters": [
-       "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 3,
-      "short": "色彩音響",
-      "chapters": [
-       "6章 色彩",
-       "7章 音響"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1617,12 +456,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ"
-   ]
+   "links": []
   },
   {
    "w": 15,
@@ -1630,102 +466,15 @@
    "end": "2026-11-15",
    "phase": "基礎期",
    "type": "study",
-   "round": 3,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 3,
-    "short": "仕上げ",
-    "chapters": [
-     "13章 仕上げ工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 3,
-    "short": "不静定振動",
-    "chapters": [
-     "5章 不静定構造の反力",
-     "6章 振動・構造物の崩壊",
-     "14章 制振構造・免震構造"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 3,
-    "short": "集団①",
-    "chapters": [
-     "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-    ]
-   },
-   "budget": 12.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 3,
-      "short": "仕上げ",
-      "chapters": [
-       "13章 仕上げ工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 3,
-      "short": "不静定振動",
-      "chapters": [
-       "5章 不静定構造の反力",
-       "6章 振動・構造物の崩壊",
-       "14章 制振構造・免震構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 3,
-      "short": "集団①",
-      "chapters": [
-       "6章 都市計画区域等の制限 ①（用途地域・容積率・建蔽率・道路）"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1736,12 +485,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の音響・色彩 ↔ 計画の劇場・ホール ↔ 施工の内装仕上げ"
-   ]
+   "links": []
   },
   {
    "w": 16,
@@ -1749,102 +495,15 @@
    "end": "2026-11-22",
    "phase": "基礎期",
    "type": "study",
-   "round": 4,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 4,
-    "short": "都市計画",
-    "chapters": [
-     "9章 都市計画"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 3,
-    "short": "仕上げ",
-    "chapters": [
-     "13章 仕上げ工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 3,
-    "short": "不静定振動",
-    "chapters": [
-     "5章 不静定構造の反力",
-     "6章 振動・構造物の崩壊",
-     "14章 制振構造・免震構造"
-    ]
-   },
-   "budget": 10.4,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 4,
-      "short": "都市計画",
-      "chapters": [
-       "9章 都市計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 3,
-      "short": "仕上げ",
-      "chapters": [
-       "13章 仕上げ工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 3,
-      "short": "不静定振動",
-      "chapters": [
-       "5章 不静定構造の反力",
-       "6章 振動・構造物の崩壊",
-       "14章 制振構造・免震構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1855,13 +514,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画",
-    "構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭"
-   ]
+   "links": []
   },
   {
    "w": 17,
@@ -1869,98 +524,15 @@
    "end": "2026-11-29",
    "phase": "基礎期",
    "type": "study",
-   "round": 4,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 4,
-    "short": "日照日射",
-    "chapters": [
-     "4章 日照・日影・日射"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 4,
-    "short": "都市計画",
-    "chapters": [
-     "9章 都市計画"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 3,
-    "short": "仕上げ",
-    "chapters": [
-     "13章 仕上げ工事"
-    ]
-   },
-   "budget": 11.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 4,
-      "short": "日照日射",
-      "chapters": [
-       "4章 日照・日影・日射"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 4,
-      "short": "都市計画",
-      "chapters": [
-       "9章 都市計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 3,
-      "short": "仕上げ",
-      "chapters": [
-       "13章 仕上げ工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -1971,13 +543,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画",
-    "構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭"
-   ]
+   "links": []
   },
   {
    "w": 18,
@@ -1985,100 +553,15 @@
    "end": "2026-12-06",
    "phase": "基礎期",
    "type": "study",
-   "round": 4,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 4,
-    "short": "集団②",
-    "chapters": [
-     "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-     "7章 建築協定，雑則等"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 4,
-    "short": "日照日射",
-    "chapters": [
-     "4章 日照・日影・日射"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 4,
-    "short": "都市計画",
-    "chapters": [
-     "9章 都市計画"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 4,
-      "short": "集団②",
-      "chapters": [
-       "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-       "7章 建築協定，雑則等"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 4,
-      "short": "日照日射",
-      "chapters": [
-       "4章 日照・日影・日射"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 4,
-      "short": "都市計画",
-      "chapters": [
-       "9章 都市計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2089,13 +572,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画",
-    "構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭"
-   ]
+   "links": []
   },
   {
    "w": 19,
@@ -2103,100 +582,15 @@
    "end": "2026-12-13",
    "phase": "基礎期",
    "type": "study",
-   "round": 4,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 4,
-    "short": "地盤基礎",
-    "chapters": [
-     "15章 地盤・基礎構造"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 4,
-    "short": "集団②",
-    "chapters": [
-     "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-     "7章 建築協定，雑則等"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 4,
-    "short": "日照日射",
-    "chapters": [
-     "4章 日照・日影・日射"
-    ]
-   },
-   "budget": 15.3,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 4,
-      "short": "地盤基礎",
-      "chapters": [
-       "15章 地盤・基礎構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 4,
-      "short": "集団②",
-      "chapters": [
-       "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-       "7章 建築協定，雑則等"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 4,
-      "short": "日照日射",
-      "chapters": [
-       "4章 日照・日影・日射"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2207,13 +601,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画",
-    "構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭"
-   ]
+   "links": []
   },
   {
    "w": 20,
@@ -2221,104 +611,15 @@
    "end": "2026-12-20",
    "phase": "基礎期",
    "type": "study",
-   "round": 4,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 4,
-    "short": "地盤土工",
-    "chapters": [
-     "5章 地盤調査",
-     "6章 土工事・山留工事",
-     "7章 基礎・地業工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 4,
-    "short": "地盤基礎",
-    "chapters": [
-     "15章 地盤・基礎構造"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 4,
-    "short": "集団②",
-    "chapters": [
-     "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-     "7章 建築協定，雑則等"
-    ]
-   },
-   "budget": 12.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 13,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 4,
-      "short": "地盤土工",
-      "chapters": [
-       "5章 地盤調査",
-       "6章 土工事・山留工事",
-       "7章 基礎・地業工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 4,
-      "short": "地盤基礎",
-      "chapters": [
-       "15章 地盤・基礎構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 4,
-      "short": "集団②",
-      "chapters": [
-       "6章 都市計画区域等の制限 ②（高さ制限・日影規制）",
-       "7章 建築協定，雑則等"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2329,13 +630,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "環境の日影 ↔ 法規の日影規制 ↔ 計画の都市計画",
-    "構造の地盤・基礎 ↔ 施工の地盤調査・山留・杭"
-   ]
+   "links": []
   },
   {
    "w": 21,
@@ -2344,79 +641,25 @@
    "phase": "中間テスト①",
    "type": "midterm",
    "round": null,
-   "new": null,
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 4,
-    "short": "地盤土工",
-    "chapters": [
-     "5章 地盤調査",
-     "6章 土工事・山留工事",
-     "7章 基礎・地業工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 4,
-    "short": "地盤基礎",
-    "chapters": [
-     "15章 地盤・基礎構造"
-    ]
-   },
-   "budget": 12.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 12,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
+   "tasks_total": 2,
    "tracks": [
     {
      "key": "test",
      "label": "模試",
-     "unit": null,
+     "units": [],
      "note": "62問",
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 4,
-      "short": "地盤土工",
-      "chapters": [
-       "5章 地盤調査",
-       "6章 土工事・山留工事",
-       "7章 基礎・地業工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 4,
-      "short": "地盤基礎",
-      "chapters": [
-       "15章 地盤・基礎構造"
-      ]
-     },
-     "note": null,
      "done": false
     },
     {
      "key": "cum",
      "label": "累積",
-     "unit": null,
+     "units": [],
      "note": "既習範囲から20問",
      "done": false
     }
@@ -2429,7 +672,6 @@
     "復習を完了"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -2441,69 +683,14 @@
    "phase": "予備週",
    "type": "buffer",
    "round": null,
-   "new": null,
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 4,
-    "short": "地盤土工",
-    "chapters": [
-     "5章 地盤調査",
-     "6章 土工事・山留工事",
-     "7章 基礎・地業工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 4,
-    "short": "地盤基礎",
-    "chapters": [
-     "15章 地盤・基礎構造"
-    ]
-   },
-   "budget": 10.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 10,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 2,
-   "tracks": [
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 4,
-      "short": "地盤土工",
-      "chapters": [
-       "5章 地盤調査",
-       "6章 土工事・山留工事",
-       "7章 基礎・地業工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 4,
-      "short": "地盤基礎",
-      "chapters": [
-       "15章 地盤・基礎構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2514,7 +701,6 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -2525,102 +711,15 @@
    "end": "2027-01-10",
    "phase": "演習期",
    "type": "study",
-   "round": 5,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 5,
-    "short": "住宅",
-    "chapters": [
-     "2章 住宅建築計画"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 4,
-    "short": "地盤土工",
-    "chapters": [
-     "5章 地盤調査",
-     "6章 土工事・山留工事",
-     "7章 基礎・地業工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 4,
-    "short": "地盤基礎",
-    "chapters": [
-     "15章 地盤・基礎構造"
-    ]
-   },
-   "budget": 12.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 5,
-      "short": "住宅",
-      "chapters": [
-       "2章 住宅建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 4,
-      "short": "地盤土工",
-      "chapters": [
-       "5章 地盤調査",
-       "6章 土工事・山留工事",
-       "7章 基礎・地業工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 4,
-      "short": "地盤基礎",
-      "chapters": [
-       "15章 地盤・基礎構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2631,12 +730,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "法規3章 構造強度（計算ルート）↔ 構造の一次設計・構造計画"
-   ]
+   "links": []
   },
   {
    "w": 24,
@@ -2644,102 +740,15 @@
    "end": "2027-01-17",
    "phase": "演習期",
    "type": "study",
-   "round": 5,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 5,
-    "short": "環境融合",
-    "chapters": [
-     "8章 環境工学融合"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 5,
-    "short": "住宅",
-    "chapters": [
-     "2章 住宅建築計画"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 4,
-    "short": "地盤土工",
-    "chapters": [
-     "5章 地盤調査",
-     "6章 土工事・山留工事",
-     "7章 基礎・地業工事"
-    ]
-   },
-   "budget": 12.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 5,
-      "short": "環境融合",
-      "chapters": [
-       "8章 環境工学融合"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 5,
-      "short": "住宅",
-      "chapters": [
-       "2章 住宅建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 4,
-      "short": "地盤土工",
-      "chapters": [
-       "5章 地盤調査",
-       "6章 土工事・山留工事",
-       "7章 基礎・地業工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2750,12 +759,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "法規3章 構造強度（計算ルート）↔ 構造の一次設計・構造計画"
-   ]
+   "links": []
   },
   {
    "w": 25,
@@ -2763,98 +769,15 @@
    "end": "2027-01-24",
    "phase": "演習期",
    "type": "study",
-   "round": 5,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 5,
-    "short": "構造強度",
-    "chapters": [
-     "3章 構造強度"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 5,
-    "short": "環境融合",
-    "chapters": [
-     "8章 環境工学融合"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 5,
-    "short": "住宅",
-    "chapters": [
-     "2章 住宅建築計画"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 5,
-      "short": "構造強度",
-      "chapters": [
-       "3章 構造強度"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 5,
-      "short": "環境融合",
-      "chapters": [
-       "8章 環境工学融合"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 5,
-      "short": "住宅",
-      "chapters": [
-       "2章 住宅建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2865,12 +788,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "法規3章 構造強度（計算ルート）↔ 構造の一次設計・構造計画"
-   ]
+   "links": []
   },
   {
    "w": 26,
@@ -2878,100 +798,15 @@
    "end": "2027-01-31",
    "phase": "演習期",
    "type": "study",
-   "round": 5,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 5,
-    "short": "一次設計",
-    "chapters": [
-     "7章 一次設計",
-     "8章 構造計画・構造計算"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 5,
-    "short": "構造強度",
-    "chapters": [
-     "3章 構造強度"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 5,
-    "short": "環境融合",
-    "chapters": [
-     "8章 環境工学融合"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 5,
-      "short": "一次設計",
-      "chapters": [
-       "7章 一次設計",
-       "8章 構造計画・構造計算"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 5,
-      "short": "構造強度",
-      "chapters": [
-       "3章 構造強度"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 5,
-      "short": "環境融合",
-      "chapters": [
-       "8章 環境工学融合"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -2982,12 +817,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "法規3章 構造強度（計算ルート）↔ 構造の一次設計・構造計画"
-   ]
+   "links": []
   },
   {
    "w": 27,
@@ -2995,102 +827,15 @@
    "end": "2027-02-07",
    "phase": "演習期",
    "type": "study",
-   "round": 5,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 5,
-    "short": "鉄筋型枠",
-    "chapters": [
-     "8章 鉄筋工事",
-     "9章 型枠工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 5,
-    "short": "一次設計",
-    "chapters": [
-     "7章 一次設計",
-     "8章 構造計画・構造計算"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 5,
-    "short": "構造強度",
-    "chapters": [
-     "3章 構造強度"
-    ]
-   },
-   "budget": 14.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 5,
-      "short": "鉄筋型枠",
-      "chapters": [
-       "8章 鉄筋工事",
-       "9章 型枠工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 5,
-      "short": "一次設計",
-      "chapters": [
-       "7章 一次設計",
-       "8章 構造計画・構造計算"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 5,
-      "short": "構造強度",
-      "chapters": [
-       "3章 構造強度"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3101,12 +846,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "法規3章 構造強度（計算ルート）↔ 構造の一次設計・構造計画"
-   ]
+   "links": []
   },
   {
    "w": 28,
@@ -3114,102 +856,15 @@
    "end": "2027-02-14",
    "phase": "演習期",
    "type": "study",
-   "round": 6,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 6,
-    "short": "商業",
-    "chapters": [
-     "4章 商業建築計画"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 5,
-    "short": "鉄筋型枠",
-    "chapters": [
-     "8章 鉄筋工事",
-     "9章 型枠工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 5,
-    "short": "一次設計",
-    "chapters": [
-     "7章 一次設計",
-     "8章 構造計画・構造計算"
-    ]
-   },
-   "budget": 12.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 6,
-      "short": "商業",
-      "chapters": [
-       "4章 商業建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 5,
-      "short": "鉄筋型枠",
-      "chapters": [
-       "8章 鉄筋工事",
-       "9章 型枠工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 5,
-      "short": "一次設計",
-      "chapters": [
-       "7章 一次設計",
-       "8章 構造計画・構造計算"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3220,12 +875,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のRC ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも重なる）"
-   ]
+   "links": []
   },
   {
    "w": 29,
@@ -3233,100 +885,15 @@
    "end": "2027-02-21",
    "phase": "演習期",
    "type": "study",
-   "round": 6,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 6,
-    "short": "空調",
-    "chapters": [
-     "9章 空気調和設備"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 6,
-    "short": "商業",
-    "chapters": [
-     "4章 商業建築計画"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 5,
-    "short": "鉄筋型枠",
-    "chapters": [
-     "8章 鉄筋工事",
-     "9章 型枠工事"
-    ]
-   },
-   "budget": 12.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 6,
-      "short": "空調",
-      "chapters": [
-       "9章 空気調和設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 6,
-      "short": "商業",
-      "chapters": [
-       "4章 商業建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 5,
-      "short": "鉄筋型枠",
-      "chapters": [
-       "8章 鉄筋工事",
-       "9章 型枠工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3337,12 +904,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のRC ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも重なる）"
-   ]
+   "links": []
   },
   {
    "w": 30,
@@ -3350,98 +914,15 @@
    "end": "2027-02-28",
    "phase": "演習期",
    "type": "study",
-   "round": 6,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 6,
-    "short": "防火",
-    "chapters": [
-     "4章 防火規定"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 6,
-    "short": "空調",
-    "chapters": [
-     "9章 空気調和設備"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 6,
-    "short": "商業",
-    "chapters": [
-     "4章 商業建築計画"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 6,
-      "short": "防火",
-      "chapters": [
-       "4章 防火規定"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 6,
-      "short": "空調",
-      "chapters": [
-       "9章 空気調和設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 6,
-      "short": "商業",
-      "chapters": [
-       "4章 商業建築計画"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3452,12 +933,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のRC ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも重なる）"
-   ]
+   "links": []
   },
   {
    "w": 31,
@@ -3465,100 +943,15 @@
    "end": "2027-03-07",
    "phase": "演習期",
    "type": "study",
-   "round": 6,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 6,
-    "short": "RC壁式",
-    "chapters": [
-     "11章 RC構造",
-     "12章 壁式・プレストレストコンクリート構造"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 6,
-    "short": "防火",
-    "chapters": [
-     "4章 防火規定"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 6,
-    "short": "空調",
-    "chapters": [
-     "9章 空気調和設備"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 6,
-      "short": "RC壁式",
-      "chapters": [
-       "11章 RC構造",
-       "12章 壁式・プレストレストコンクリート構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 6,
-      "short": "防火",
-      "chapters": [
-       "4章 防火規定"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 6,
-      "short": "空調",
-      "chapters": [
-       "9章 空気調和設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3569,12 +962,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のRC ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも重なる）"
-   ]
+   "links": []
   },
   {
    "w": 32,
@@ -3582,102 +972,15 @@
    "end": "2027-03-14",
    "phase": "演習期",
    "type": "study",
-   "round": 6,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 6,
-    "short": "コンPCa",
-    "chapters": [
-     "10章 コンクリート工事",
-     "11章 プレキャストRC工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 6,
-    "short": "RC壁式",
-    "chapters": [
-     "11章 RC構造",
-     "12章 壁式・プレストレストコンクリート構造"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 6,
-    "short": "防火",
-    "chapters": [
-     "4章 防火規定"
-    ]
-   },
-   "budget": 14.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 6,
-      "short": "コンPCa",
-      "chapters": [
-       "10章 コンクリート工事",
-       "11章 プレキャストRC工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 6,
-      "short": "RC壁式",
-      "chapters": [
-       "11章 RC構造",
-       "12章 壁式・プレストレストコンクリート構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 6,
-      "short": "防火",
-      "chapters": [
-       "4章 防火規定"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3688,12 +991,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のRC ↔ 施工のコンクリート・PCa（前週の鉄筋・型枠とも重なる）"
-   ]
+   "links": []
   },
   {
    "w": 33,
@@ -3701,102 +1001,15 @@
    "end": "2027-03-21",
    "phase": "演習期",
    "type": "study",
-   "round": 7,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 7,
-    "short": "建築史",
-    "chapters": [
-     "10章 建築史"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 6,
-    "short": "コンPCa",
-    "chapters": [
-     "10章 コンクリート工事",
-     "11章 プレキャストRC工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 6,
-    "short": "RC壁式",
-    "chapters": [
-     "11章 RC構造",
-     "12章 壁式・プレストレストコンクリート構造"
-    ]
-   },
-   "budget": 12.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 7,
-      "short": "建築史",
-      "chapters": [
-       "10章 建築史"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 6,
-      "short": "コンPCa",
-      "chapters": [
-       "10章 コンクリート工事",
-       "11章 プレキャストRC工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 6,
-      "short": "RC壁式",
-      "chapters": [
-       "11章 RC構造",
-       "12章 壁式・プレストレストコンクリート構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3807,13 +1020,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のS造 ↔ 施工の鉄骨",
-    "環境の消火・防災設備 ↔ 法規5章 建築設備"
-   ]
+   "links": []
   },
   {
    "w": 34,
@@ -3821,102 +1030,15 @@
    "end": "2027-03-28",
    "phase": "演習期",
    "type": "study",
-   "round": 7,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 7,
-    "short": "照明防災",
-    "chapters": [
-     "12章 照明設備",
-     "13章 消火・防災設備"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 7,
-    "short": "建築史",
-    "chapters": [
-     "10章 建築史"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 6,
-    "short": "コンPCa",
-    "chapters": [
-     "10章 コンクリート工事",
-     "11章 プレキャストRC工事"
-    ]
-   },
-   "budget": 12.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 7,
-      "short": "照明防災",
-      "chapters": [
-       "12章 照明設備",
-       "13章 消火・防災設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 7,
-      "short": "建築史",
-      "chapters": [
-       "10章 建築史"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 6,
-      "short": "コンPCa",
-      "chapters": [
-       "10章 コンクリート工事",
-       "11章 プレキャストRC工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -3927,13 +1049,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のS造 ↔ 施工の鉄骨",
-    "環境の消火・防災設備 ↔ 法規5章 建築設備"
-   ]
+   "links": []
   },
   {
    "w": 35,
@@ -3941,100 +1059,15 @@
    "end": "2027-04-04",
    "phase": "演習期",
    "type": "study",
-   "round": 7,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 7,
-    "short": "避難設備",
-    "chapters": [
-     "5章 避難規定，建築設備"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 7,
-    "short": "照明防災",
-    "chapters": [
-     "12章 照明設備",
-     "13章 消火・防災設備"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 7,
-    "short": "建築史",
-    "chapters": [
-     "10章 建築史"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 7,
-      "short": "避難設備",
-      "chapters": [
-       "5章 避難規定，建築設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 7,
-      "short": "照明防災",
-      "chapters": [
-       "12章 照明設備",
-       "13章 消火・防災設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 7,
-      "short": "建築史",
-      "chapters": [
-       "10章 建築史"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4045,13 +1078,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のS造 ↔ 施工の鉄骨",
-    "環境の消火・防災設備 ↔ 法規5章 建築設備"
-   ]
+   "links": []
   },
   {
    "w": 36,
@@ -4059,102 +1088,15 @@
    "end": "2027-04-11",
    "phase": "演習期",
    "type": "study",
-   "round": 7,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 7,
-    "short": "S合成",
-    "chapters": [
-     "10章 S構造",
-     "13章 合成構造"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 7,
-    "short": "避難設備",
-    "chapters": [
-     "5章 避難規定，建築設備"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 7,
-    "short": "照明防災",
-    "chapters": [
-     "12章 照明設備",
-     "13章 消火・防災設備"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 7,
-      "short": "S合成",
-      "chapters": [
-       "10章 S構造",
-       "13章 合成構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 7,
-      "short": "避難設備",
-      "chapters": [
-       "5章 避難規定，建築設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 7,
-      "short": "照明防災",
-      "chapters": [
-       "12章 照明設備",
-       "13章 消火・防災設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4165,13 +1107,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のS造 ↔ 施工の鉄骨",
-    "環境の消火・防災設備 ↔ 法規5章 建築設備"
-   ]
+   "links": []
   },
   {
    "w": 37,
@@ -4179,100 +1117,15 @@
    "end": "2027-04-18",
    "phase": "演習期",
    "type": "study",
-   "round": 7,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 7,
-    "short": "鉄骨",
-    "chapters": [
-     "12章 鉄骨工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 7,
-    "short": "S合成",
-    "chapters": [
-     "10章 S構造",
-     "13章 合成構造"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 7,
-    "short": "避難設備",
-    "chapters": [
-     "5章 避難規定，建築設備"
-    ]
-   },
-   "budget": 14.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 7,
-      "short": "鉄骨",
-      "chapters": [
-       "12章 鉄骨工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 7,
-      "short": "S合成",
-      "chapters": [
-       "10章 S構造",
-       "13章 合成構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 7,
-      "short": "避難設備",
-      "chapters": [
-       "5章 避難規定，建築設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4283,13 +1136,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "構造のS造 ↔ 施工の鉄骨",
-    "環境の消火・防災設備 ↔ 法規5章 建築設備"
-   ]
+   "links": []
   },
   {
    "w": 38,
@@ -4297,102 +1146,15 @@
    "end": "2027-04-25",
    "phase": "演習期",
    "type": "study",
-   "round": 8,
-   "new": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 8,
-    "short": "積算生産",
-    "chapters": [
-     "7章 建築積算",
-     "8章 建築生産"
-    ]
-   },
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 7,
-    "short": "鉄骨",
-    "chapters": [
-     "12章 鉄骨工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 7,
-    "short": "S合成",
-    "chapters": [
-     "10章 S構造",
-     "13章 合成構造"
-    ]
-   },
-   "budget": 12.0,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 8,
-      "short": "積算生産",
-      "chapters": [
-       "7章 建築積算",
-       "8章 建築生産"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 7,
-      "short": "鉄骨",
-      "chapters": [
-       "12章 鉄骨工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 7,
-      "short": "S合成",
-      "chapters": [
-       "10章 S構造",
-       "13章 合成構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4403,14 +1165,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "計画の建築生産 ↔ 法規の建築士法・建設業法",
-    "環境の給排水・電気 ↔ 施工の設備工事",
-    "法規の耐震改修促進法 ↔ 施工の改修工事"
-   ]
+   "links": []
   },
   {
    "w": 39,
@@ -4418,102 +1175,15 @@
    "end": "2027-05-02",
    "phase": "演習期",
    "type": "study",
-   "round": 8,
-   "new": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 8,
-    "short": "給排水電気",
-    "chapters": [
-     "10章 給排水設備",
-     "11章 電気・搬送設備"
-    ]
-   },
-   "review": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 8,
-    "short": "積算生産",
-    "chapters": [
-     "7章 建築積算",
-     "8章 建築生産"
-    ]
-   },
-   "exam": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 7,
-    "short": "鉄骨",
-    "chapters": [
-     "12章 鉄骨工事"
-    ]
-   },
-   "budget": 12.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 8,
-      "short": "給排水電気",
-      "chapters": [
-       "10章 給排水設備",
-       "11章 電気・搬送設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 8,
-      "short": "積算生産",
-      "chapters": [
-       "7章 建築積算",
-       "8章 建築生産"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 7,
-      "short": "鉄骨",
-      "chapters": [
-       "12章 鉄骨工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4524,14 +1194,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "計画の建築生産 ↔ 法規の建築士法・建設業法",
-    "環境の給排水・電気 ↔ 施工の設備工事",
-    "法規の耐震改修促進法 ↔ 施工の改修工事"
-   ]
+   "links": []
   },
   {
    "w": 40,
@@ -4539,104 +1204,15 @@
    "end": "2027-05-09",
    "phase": "演習期",
    "type": "study",
-   "round": 8,
-   "new": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 8,
-    "short": "士法法令",
-    "chapters": [
-     "8章 建築司法",
-     "9章 その他の関係法令"
-    ]
-   },
-   "review": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 8,
-    "short": "給排水電気",
-    "chapters": [
-     "10章 給排水設備",
-     "11章 電気・搬送設備"
-    ]
-   },
-   "exam": {
-    "subject": "計画",
-    "ch": "計",
-    "color": "#CB5566",
-    "unit": 8,
-    "short": "積算生産",
-    "chapters": [
-     "7章 建築積算",
-     "8章 建築生産"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 8,
-      "short": "士法法令",
-      "chapters": [
-       "8章 建築司法",
-       "9章 その他の関係法令"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 8,
-      "short": "給排水電気",
-      "chapters": [
-       "10章 給排水設備",
-       "11章 電気・搬送設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "計画",
-      "ch": "計",
-      "color": "#CB5566",
-      "unit": 8,
-      "short": "積算生産",
-      "chapters": [
-       "7章 建築積算",
-       "8章 建築生産"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4647,14 +1223,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "計画の建築生産 ↔ 法規の建築士法・建設業法",
-    "環境の給排水・電気 ↔ 施工の設備工事",
-    "法規の耐震改修促進法 ↔ 施工の改修工事"
-   ]
+   "links": []
   },
   {
    "w": 41,
@@ -4662,102 +1233,15 @@
    "end": "2027-05-16",
    "phase": "演習期",
    "type": "study",
-   "round": 8,
-   "new": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 8,
-    "short": "木造",
-    "chapters": [
-     "9章 木造構造"
-    ]
-   },
-   "review": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 8,
-    "short": "士法法令",
-    "chapters": [
-     "8章 建築司法",
-     "9章 その他の関係法令"
-    ]
-   },
-   "exam": {
-    "subject": "環境",
-    "ch": "環",
-    "color": "#7C8480",
-    "unit": 8,
-    "short": "給排水電気",
-    "chapters": [
-     "10章 給排水設備",
-     "11章 電気・搬送設備"
-    ]
-   },
-   "budget": 17.7,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 8,
-      "short": "木造",
-      "chapters": [
-       "9章 木造構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 8,
-      "short": "士法法令",
-      "chapters": [
-       "8章 建築司法",
-       "9章 その他の関係法令"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "環境",
-      "ch": "環",
-      "color": "#7C8480",
-      "unit": 8,
-      "short": "給排水電気",
-      "chapters": [
-       "10章 給排水設備",
-       "11章 電気・搬送設備"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4768,14 +1252,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "計画の建築生産 ↔ 法規の建築士法・建設業法",
-    "環境の給排水・電気 ↔ 施工の設備工事",
-    "法規の耐震改修促進法 ↔ 施工の改修工事"
-   ]
+   "links": []
   },
   {
    "w": 42,
@@ -4783,102 +1262,15 @@
    "end": "2027-05-23",
    "phase": "演習期",
    "type": "study",
-   "round": 8,
-   "new": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 8,
-    "short": "改修設備",
-    "chapters": [
-     "14章 改修工事",
-     "15章 設備工事"
-    ]
-   },
-   "review": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 8,
-    "short": "木造",
-    "chapters": [
-     "9章 木造構造"
-    ]
-   },
-   "exam": {
-    "subject": "法規",
-    "ch": "法",
-    "color": "#A87F27",
-    "unit": 8,
-    "short": "士法法令",
-    "chapters": [
-     "8章 建築司法",
-     "9章 その他の関係法令"
-    ]
-   },
-   "budget": 14.9,
+   "round": null,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
-   "tracks": [
-    {
-     "key": "new",
-     "label": "新規",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 8,
-      "short": "改修設備",
-      "chapters": [
-       "14章 改修工事",
-       "15章 設備工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 8,
-      "short": "木造",
-      "chapters": [
-       "9章 木造構造"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "法規",
-      "ch": "法",
-      "color": "#A87F27",
-      "unit": 8,
-      "short": "士法法令",
-      "chapters": [
-       "8章 建築司法",
-       "9章 その他の関係法令"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "cum",
-     "label": "累積",
-     "unit": null,
-     "note": "既習範囲から20問",
-     "done": false
-    }
-   ],
+   "tasks_total": 0,
+   "tracks": [],
    "task_list": [
     "テキスト通読",
     "ノートに自分の言葉で書き起こす",
@@ -4889,14 +1281,9 @@
     "先々週範囲の過去問を時間計測（EXAM）"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
-   "links": [
-    "計画の建築生産 ↔ 法規の建築士法・建設業法",
-    "環境の給排水・電気 ↔ 施工の設備工事",
-    "法規の耐震改修促進法 ↔ 施工の改修工事"
-   ]
+   "links": []
   },
   {
    "w": 43,
@@ -4905,77 +1292,25 @@
    "phase": "中間テスト②",
    "type": "midterm",
    "round": null,
-   "new": null,
-   "review": {
-    "subject": "施工",
-    "ch": "施",
-    "color": "#3E8A57",
-    "unit": 8,
-    "short": "改修設備",
-    "chapters": [
-     "14章 改修工事",
-     "15章 設備工事"
-    ]
-   },
-   "exam": {
-    "subject": "構造",
-    "ch": "構",
-    "color": "#2E6BA8",
-    "unit": 8,
-    "short": "木造",
-    "chapters": [
-     "9章 木造構造"
-    ]
-   },
-   "budget": 15.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 15,
    "status": "planned",
    "tasks_done": 0,
-   "tasks_total": 4,
+   "tasks_total": 2,
    "tracks": [
     {
      "key": "test",
      "label": "模試",
-     "unit": null,
+     "units": [],
      "note": "125問",
-     "done": false
-    },
-    {
-     "key": "review",
-     "label": "復習",
-     "unit": {
-      "subject": "施工",
-      "ch": "施",
-      "color": "#3E8A57",
-      "unit": 8,
-      "short": "改修設備",
-      "chapters": [
-       "14章 改修工事",
-       "15章 設備工事"
-      ]
-     },
-     "note": null,
-     "done": false
-    },
-    {
-     "key": "exam",
-     "label": "過去問",
-     "unit": {
-      "subject": "構造",
-      "ch": "構",
-      "color": "#2E6BA8",
-      "unit": 8,
-      "short": "木造",
-      "chapters": [
-       "9章 木造構造"
-      ]
-     },
-     "note": null,
      "done": false
     },
     {
      "key": "cum",
      "label": "累積",
-     "unit": null,
+     "units": [],
      "note": "既習範囲から20問",
      "done": false
     }
@@ -4988,7 +1323,6 @@
     "復習を完了"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -5000,10 +1334,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5011,14 +1345,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5031,14 +1365,13 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
+   "links": [],
    "final_subject": "計画",
    "final_extra": [
     "5章 公共・商業建築計画融合"
-   ],
-   "links": []
+   ]
   },
   {
    "w": 45,
@@ -5047,10 +1380,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5058,14 +1391,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5078,14 +1411,13 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
+   "links": [],
    "final_subject": "環境",
    "final_extra": [
     "14章 環境・設備融合"
-   ],
-   "links": []
+   ]
   },
   {
    "w": 46,
@@ -5094,10 +1426,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5105,14 +1437,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5125,12 +1457,11 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
+   "links": [],
    "final_subject": "法規",
-   "final_extra": [],
-   "links": []
+   "final_extra": []
   },
   {
    "w": 47,
@@ -5139,10 +1470,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5150,14 +1481,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5170,12 +1501,11 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
+   "links": [],
    "final_subject": "構造",
-   "final_extra": [],
-   "links": []
+   "final_extra": []
   },
   {
    "w": 48,
@@ -5184,10 +1514,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5195,14 +1525,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5215,12 +1545,11 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
+   "links": [],
    "final_subject": "施工",
-   "final_extra": [],
-   "links": []
+   "final_extra": []
   },
   {
    "w": 49,
@@ -5229,10 +1558,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5240,14 +1569,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5260,7 +1589,6 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -5272,10 +1600,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5283,14 +1611,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5303,7 +1631,6 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -5315,10 +1642,10 @@
    "phase": "直前期",
    "type": "final",
    "round": null,
-   "new": null,
-   "review": null,
-   "exam": null,
-   "budget": 20.0,
+   "new": [],
+   "review": [],
+   "exam": [],
+   "budget": 20,
    "status": "planned",
    "tasks_done": 0,
    "tasks_total": 2,
@@ -5326,14 +1653,14 @@
     {
      "key": "final",
      "label": "総まとめ",
-     "unit": null,
+     "units": [],
      "note": "全8単元の速習",
      "done": false
     },
     {
      "key": "years",
      "label": "年度別",
-     "unit": null,
+     "units": [],
      "note": "10年分",
      "done": false
     }
@@ -5346,7 +1673,6 @@
     "弱点ノートを更新"
    ],
    "hours": 0,
-   "exam_result": null,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -5375,13 +1701,16 @@
   }
  ],
  "summary": {
-  "done": 1,
+  "done": 0,
   "slipped": 0,
-  "remaining": 50,
-  "pct": 2,
+  "remaining": 51,
+  "pct": 0,
+  "units_done": 0,
+  "units_total": 40,
   "hours_total": 757,
-  "hours_left": 746,
-  "weeks_left": 44,
+  "hours_left": 757,
+  "hours_logged": 0,
+  "weeks_left": 36,
   "next_gate": {
    "week": 21,
    "name": "中間テスト①",
