@@ -2,4 +2,5 @@
 # new / review / exam / cum / test / final / years
 # 遅れたときだけ status: slipped と moved_to: を書きます。
 # このファイルは UI からも書き換わります。
-# 2026-11-12 再計画でリセット（法規1〜7 は plan.yaml の prior に記録）
+
+
