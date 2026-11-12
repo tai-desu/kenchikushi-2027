@@ -24,6 +24,10 @@ def fold(line):
     return "\r\n".join(out)
 
 
+def names(us):
+    return " ＋ ".join(f'{u["subject"]}{u["unit"]} {u["short"]}' for u in us)
+
+
 L = [
     "BEGIN:VCALENDAR", "VERSION:2.0",
     "PRODID:-//kenchikushi-2027//JP", "CALSCALE:GREGORIAN",
@@ -31,23 +35,24 @@ L = [
 ]
 
 for r in st["weeks"]:
+    if r["type"] == "prior":
+        continue
     s = date.fromisoformat(r["start"])
     e = s + timedelta(days=7)
+    desc = []
     if r["new"]:
-        n = r["new"]
-        title = f'W{r["w"]:02d} {n["subject"]}{n["unit"]} {n["short"]}'
-        desc = ["新規: " + " / ".join(n["chapters"])]
+        title = f'W{r["w"]:02d} {names(r["new"])}'
+        desc.append("新規: " + " / ".join(c for u in r["new"] for c in u["chapters"]))
     else:
         title = f'W{r["w"]:02d} {r["phase"]}'
-        desc = []
     if r.get("final_subject"):
         title = f'W{r["w"]:02d} {r["final_subject"]} 総まとめ'
         if r.get("final_extra"):
             desc.append("回収: " + " / ".join(r["final_extra"]))
     if r["review"]:
-        desc.append(f'復習: {r["review"]["subject"]}{r["review"]["unit"]} {r["review"]["short"]}')
+        desc.append("復習: " + names(r["review"]))
     if r["exam"]:
-        desc.append(f'過去問: {r["exam"]["subject"]}{r["exam"]["unit"]} {r["exam"]["short"]}')
+        desc.append("過去問: " + names(r["exam"]))
     desc.append(f'配分: {r["budget"]}h')
     for x in r.get("links", []):
         desc.append("連結: " + x)
