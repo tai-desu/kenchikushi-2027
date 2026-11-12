@@ -7,4 +7,4 @@ a = sys.argv[1] if len(sys.argv) > 1 and sys.argv[1].strip() else None
 w = int(a) if a else st["current"]
 r = next(x for x in st["weeks"] if x["w"] == w)
 n = r["new"]
-print(f'W{w:02d} ' + (f'{n["subject"]}{n["unit"]} {n["short"]}' if n else r["phase"]))
+print(f'W{w:02d} ' + (" ＋ ".join(f'{u["subject"]}{u["unit"]} {u["short"]}' for u in n) if n else r["phase"]))
