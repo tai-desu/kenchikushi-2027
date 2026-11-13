@@ -3,4 +3,6 @@
 # 遅れたときだけ status: slipped と moved_to: を書きます。
 # このファイルは UI からも書き換わります。
 
-
+W15:
+  exam: true
+  cum: false
