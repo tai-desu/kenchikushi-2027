@@ -5,4 +5,5 @@
 
 W15:
   exam: true
-  cum: false
+  cum: true
+  hours: 3
