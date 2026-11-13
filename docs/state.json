@@ -51,7 +51,7 @@
   "構造",
   "施工"
  ],
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "current": 15,
  "prior": [
   {
@@ -555,8 +555,8 @@
     }
    ],
    "budget": 8,
-   "status": "planned",
-   "tasks_done": 0,
+   "status": "done",
+   "tasks_done": 2,
    "tasks_total": 2,
    "tracks": [
     {
@@ -575,14 +575,14 @@
       }
      ],
      "note": null,
-     "done": false
+     "done": true
     },
     {
      "key": "cum",
      "label": "累積",
      "units": [],
      "note": "既習範囲から20問",
-     "done": false
+     "done": true
     }
    ],
    "task_list": [
@@ -591,7 +591,7 @@
     "来週からの4科目の教材とノートを準備",
     "誤答を弱点ノートへ"
    ],
-   "hours": 0,
+   "hours": 4,
    "moved_to": null,
    "memo": null,
    "links": []
@@ -4938,15 +4938,15 @@
   }
  ],
  "summary": {
-  "done": 14,
+  "done": 15,
   "slipped": 0,
-  "remaining": 37,
+  "remaining": 36,
   "pct": 18,
   "units_done": 7,
   "units_total": 40,
   "hours_total": 603,
-  "hours_left": 603,
-  "hours_logged": 0,
+  "hours_left": 595,
+  "hours_logged": 4,
   "weeks_left": 36,
   "next_gate": {
    "week": 22,
